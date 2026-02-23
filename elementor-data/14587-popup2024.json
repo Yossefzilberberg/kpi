@@ -1,0 +1,273 @@
+{
+    "post_id": 14587,
+    "post_title": "popup2024",
+    "post_name": "popup2024",
+    "post_type": "elementor_library",
+    "post_status": "publish",
+    "elementor_version": "3.25.11",
+    "exported_at": "2026-02-23 18:55:42",
+    "elementor_data": [
+        {
+            "id": "6d017c45",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "column",
+                "content_width": "full",
+                "padding": {
+                    "unit": "em",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "em",
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": "",
+                    "isLinked": true
+                },
+                "padding_mobile": {
+                    "unit": "%",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": true
+                },
+                "jedv_conditions": [
+                    {
+                        "_id": "3ec4b6b"
+                    }
+                ],
+                "width": {
+                    "unit": "%",
+                    "size": 100,
+                    "sizes": []
+                },
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "background_image": {
+                    "url": "https://bviral.co.il/kpi/wp-content/uploads/2024/12/456.webp",
+                    "id": 14139,
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                },
+                "background_position": "bottom center",
+                "background_size": "contain",
+                "background_overlay_color": "#89B14903",
+                "background_overlay_color_stop": {
+                    "unit": "%",
+                    "size": 25,
+                    "sizes": []
+                },
+                "background_overlay_color_b": "#7E9C4C",
+                "background_overlay_color_b_stop": {
+                    "unit": "%",
+                    "size": 70,
+                    "sizes": []
+                },
+                "background_overlay_gradient_angle": {
+                    "unit": "deg",
+                    "size": 251,
+                    "sizes": []
+                },
+                "background_overlay_image": {
+                    "url": "",
+                    "id": "",
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                },
+                "background_overlay_position": "center center",
+                "background_overlay_size": "cover",
+                "background_overlay_size_mobile": "initial",
+                "background_overlay_bg_width_mobile": {
+                    "unit": "px",
+                    "size": 1000,
+                    "sizes": []
+                },
+                "background_overlay_opacity": {
+                    "unit": "px",
+                    "size": 1,
+                    "sizes": []
+                },
+                "background_overlay_opacity_mobile": {
+                    "unit": "px",
+                    "size": 1,
+                    "sizes": []
+                },
+                "css_filters_blur": {
+                    "unit": "px",
+                    "size": 7.5,
+                    "sizes": []
+                },
+                "css_filters_brightness": {
+                    "unit": "px",
+                    "size": 90,
+                    "sizes": []
+                },
+                "border_radius": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "25",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "__globals__": {
+                    "background_overlay_color": ""
+                },
+                "flex_gap": {
+                    "column": "0",
+                    "row": "0",
+                    "isLinked": false,
+                    "unit": "px",
+                    "size": 0
+                },
+                "background_xpos": {
+                    "unit": "px",
+                    "size": -1,
+                    "sizes": []
+                },
+                "background_ypos": {
+                    "unit": "px",
+                    "size": 106,
+                    "sizes": []
+                },
+                "background_repeat": "no-repeat",
+                "background_overlay_background": "classic",
+                "border_border": "none"
+            },
+            "elements": [
+                {
+                    "id": "2c9db73b",
+                    "elType": "widget",
+                    "settings": {
+                        "content_width": "full",
+                        "editor": "<p>מענק ייחודי למשפחות המילואים \"חרבות ברזל\" -<strong><span style=\"color: #2d4209;\"> 16,000 ש\"ח </span>לקורס חצי שנתי ללימודי שיווק דיגיטלי.</strong></p>",
+                        "align": "center",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Heebo",
+                        "typography_font_size": {
+                            "unit": "vw",
+                            "size": 1.899999999999999911182158029987476766109466552734375,
+                            "sizes": []
+                        },
+                        "typography_font_size_tablet": {
+                            "unit": "vw",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                            "unit": "px",
+                            "size": 22,
+                            "sizes": []
+                        },
+                        "typography_font_weight": "500",
+                        "jedv_conditions": [
+                            {
+                                "_id": "d414c14"
+                            }
+                        ],
+                        "__globals__": {
+                            "text_color": ""
+                        },
+                        "_margin": {
+                            "unit": "%",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "_margin_tablet": {
+                            "unit": "%",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "_margin_mobile": {
+                            "unit": "%",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "typography_line_height": {
+                            "unit": "em",
+                            "size": 1.100000000000000088817841970012523233890533447265625,
+                            "sizes": []
+                        },
+                        "_element_custom_width": {
+                            "unit": "%",
+                            "size": 61,
+                            "sizes": []
+                        },
+                        "_flex_align_self": "center",
+                        "_element_custom_width_mobile": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        },
+                        "text_color": "#FDFDFD",
+                        "_padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    },
+                    "elements": [],
+                    "widgetType": "text-editor"
+                },
+                {
+                    "id": "227f5e83",
+                    "elType": "widget",
+                    "settings": {
+                        "editor": "<p>בהוקרה על תרומתכם ותרומת בני משפחותיכם למאמץ המלחמתי, אנו שמחים להעניק לכם מענק לימודים ייחודי.</p>",
+                        "align": "center",
+                        "text_color": "#FFFFFF",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Heebo",
+                        "typography_font_size": {
+                            "unit": "vw",
+                            "size": 1.399999999999999911182158029987476766109466552734375,
+                            "sizes": []
+                        },
+                        "typography_font_size_tablet": {
+                            "unit": "vw",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                            "unit": "px",
+                            "size": 17,
+                            "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "jedv_conditions": [
+                            {
+                                "_id": "1c153ae"
+                            }
+                        ],
+                        "__globals__": {
+                            "text_color": ""
+                        }
+                    },
+                    "elements": [],
+                    "widgetType": "text-editor"
+                }
+            ],
+            "isInner": false
+        }
+    ]
+}

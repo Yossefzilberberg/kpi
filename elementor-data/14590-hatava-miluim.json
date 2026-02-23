@@ -1,0 +1,733 @@
+{
+    "post_id": 14590,
+    "post_title": "hatava miluim",
+    "post_name": "hatava-miluim",
+    "post_type": "elementor_library",
+    "post_status": "publish",
+    "elementor_version": "3.25.11",
+    "exported_at": "2026-02-23 18:55:42",
+    "elementor_data": [
+        {
+            "id": "5833e6c2",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "column",
+                "content_width": "full",
+                "padding": {
+                    "unit": "em",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "em",
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": "",
+                    "isLinked": true
+                },
+                "padding_mobile": {
+                    "unit": "%",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": true
+                },
+                "jedv_conditions": [
+                    {
+                        "_id": "3ec4b6b"
+                    }
+                ],
+                "width": {
+                    "unit": "%",
+                    "size": 100,
+                    "sizes": []
+                },
+                "flex_justify_content": "center",
+                "flex_align_items": "center",
+                "background_image": {
+                    "url": "https://bviral.co.il/kpi/wp-content/uploads/2024/12/456.webp",
+                    "id": 14139,
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                },
+                "background_position": "bottom center",
+                "background_size": "contain",
+                "background_overlay_color": "#89B14903",
+                "background_overlay_color_stop": {
+                    "unit": "%",
+                    "size": 25,
+                    "sizes": []
+                },
+                "background_overlay_color_b": "#7E9C4C",
+                "background_overlay_color_b_stop": {
+                    "unit": "%",
+                    "size": 70,
+                    "sizes": []
+                },
+                "background_overlay_gradient_angle": {
+                    "unit": "deg",
+                    "size": 251,
+                    "sizes": []
+                },
+                "background_overlay_image": {
+                    "url": "",
+                    "id": "",
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                },
+                "background_overlay_position": "center center",
+                "background_overlay_size": "cover",
+                "background_overlay_size_mobile": "initial",
+                "background_overlay_bg_width_mobile": {
+                    "unit": "px",
+                    "size": 1000,
+                    "sizes": []
+                },
+                "background_overlay_opacity": {
+                    "unit": "px",
+                    "size": 1,
+                    "sizes": []
+                },
+                "background_overlay_opacity_mobile": {
+                    "unit": "px",
+                    "size": 1,
+                    "sizes": []
+                },
+                "css_filters_blur": {
+                    "unit": "px",
+                    "size": 7.5,
+                    "sizes": []
+                },
+                "css_filters_brightness": {
+                    "unit": "px",
+                    "size": 90,
+                    "sizes": []
+                },
+                "border_radius": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "25",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "__globals__": {
+                    "background_overlay_color": ""
+                },
+                "flex_gap": {
+                    "column": "0",
+                    "row": "0",
+                    "isLinked": false,
+                    "unit": "px",
+                    "size": 0
+                },
+                "background_xpos": {
+                    "unit": "px",
+                    "size": -1,
+                    "sizes": []
+                },
+                "background_ypos": {
+                    "unit": "px",
+                    "size": 106,
+                    "sizes": []
+                },
+                "background_repeat": "no-repeat",
+                "background_overlay_background": "classic",
+                "border_border": "none"
+            },
+            "elements": [
+                {
+                    "id": "4c054d5",
+                    "elType": "widget",
+                    "settings": {
+                        "content_width": "full",
+                        "editor": "<p>משרתי מילואים ובני משפחותיהם - <span style=\"color: #ffffff;\">התפקדו!</span></p>",
+                        "align": "center",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Heebo",
+                        "typography_font_size": {
+                            "unit": "vw",
+                            "size": 2.70000000000000017763568394002504646778106689453125,
+                            "sizes": []
+                        },
+                        "typography_font_size_tablet": {
+                            "unit": "vw",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                            "unit": "px",
+                            "size": 25,
+                            "sizes": []
+                        },
+                        "typography_font_weight": "800",
+                        "jedv_conditions": [
+                            {
+                                "_id": "d414c14"
+                            }
+                        ],
+                        "__globals__": {
+                            "text_color": ""
+                        },
+                        "_margin": {
+                            "unit": "%",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "-1",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "_margin_tablet": {
+                            "unit": "%",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "_margin_mobile": {
+                            "unit": "%",
+                            "top": "1",
+                            "right": "0",
+                            "bottom": "-2",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "typography_line_height": {
+                            "unit": "em",
+                            "size": 1.100000000000000088817841970012523233890533447265625,
+                            "sizes": []
+                        },
+                        "_element_custom_width": {
+                            "unit": "%",
+                            "size": 61,
+                            "sizes": []
+                        },
+                        "_flex_align_self": "center",
+                        "_element_custom_width_mobile": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        },
+                        "text_color": "#2C410A",
+                        "_padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    },
+                    "elements": [],
+                    "widgetType": "text-editor"
+                },
+                {
+                    "id": "a6e3cd1",
+                    "elType": "widget",
+                    "settings": {
+                        "content_width": "full",
+                        "editor": "<p>אנו ערים למציאות בישראל ומעוניינים לאפשר דרך חדשה ואיכותית למי שרוצה בכך וזקוק לזה יותר.</p>",
+                        "align": "center",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Heebo",
+                        "typography_font_size": {
+                            "unit": "vw",
+                            "size": 1.6999999999999999555910790149937383830547332763671875,
+                            "sizes": []
+                        },
+                        "typography_font_size_tablet": {
+                            "unit": "vw",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                            "unit": "px",
+                            "size": 16,
+                            "sizes": []
+                        },
+                        "typography_font_weight": "500",
+                        "jedv_conditions": [
+                            {
+                                "_id": "d414c14"
+                            }
+                        ],
+                        "__globals__": {
+                            "text_color": ""
+                        },
+                        "_margin": {
+                            "unit": "%",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "-1",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "_margin_tablet": {
+                            "unit": "%",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "_margin_mobile": {
+                            "unit": "%",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "typography_line_height": {
+                            "unit": "em",
+                            "size": 1.399999999999999911182158029987476766109466552734375,
+                            "sizes": []
+                        },
+                        "_element_custom_width": {
+                            "unit": "%",
+                            "size": 61,
+                            "sizes": []
+                        },
+                        "_flex_align_self": "center",
+                        "_element_custom_width_mobile": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        },
+                        "text_color": "#FDFDFD",
+                        "_padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "_padding_mobile": {
+                            "unit": "%",
+                            "top": "0",
+                            "right": "4",
+                            "bottom": "0",
+                            "left": "4",
+                            "isLinked": false
+                        }
+                    },
+                    "elements": [],
+                    "widgetType": "text-editor"
+                },
+                {
+                    "id": "23f89b3",
+                    "elType": "widget",
+                    "settings": {
+                        "text": "קבלו 30% הנחה בשכר הלימוד",
+                        "link": {
+                            "url": "",
+                            "is_external": "",
+                            "nofollow": "",
+                            "custom_attributes": ""
+                        },
+                        "align": "justify",
+                        "align_mobile": "justify",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Heebo",
+                        "typography_font_size": {
+                            "unit": "vw",
+                            "size": 1.399999999999999911182158029987476766109466552734375,
+                            "sizes": []
+                        },
+                        "typography_font_size_tablet": {
+                            "unit": "vw",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                            "unit": "px",
+                            "size": 17,
+                            "sizes": []
+                        },
+                        "typography_font_weight": "700",
+                        "button_text_color": "#FFFDFD",
+                        "background_color": "#FE4E6E",
+                        "text_padding_mobile": {
+                            "unit": "%",
+                            "top": "4",
+                            "right": "0",
+                            "bottom": "3",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "_margin": {
+                            "unit": "%",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "2",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "_margin_tablet": {
+                            "unit": "%",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "_margin_mobile": {
+                            "unit": "%",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "4",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "_element_width": "inherit",
+                        "_element_width_mobile": "inherit",
+                        "jedv_conditions": [
+                            {
+                                "_id": "45f5102"
+                            }
+                        ],
+                        "__globals__": {
+                            "background_color": ""
+                        },
+                        "content_align": "center"
+                    },
+                    "elements": [],
+                    "widgetType": "button"
+                },
+                {
+                    "id": "b4aea2f",
+                    "elType": "widget",
+                    "settings": {
+                        "form_name": "טופס הטבת מילואים פופאפ ",
+                        "form_fields": [
+                            {
+                                "custom_id": "name",
+                                "field_label": "שם מלא",
+                                "placeholder": "שם מלא",
+                                "width": "50",
+                                "_id": "6e65331",
+                                "dce_form_stripe_item_value": "10.99",
+                                "dce_form_paypal_item_name": "no name",
+                                "dce_form_paypal_item_value": "0.1",
+                                "dce_form_paypal_message_approved": "Your PayPal order has been approved. Please submit the form to complete this payment.",
+                                "dce_form_stripe_currency": "USD",
+                                "dce_counter_step": "1",
+                                "required": "true"
+                            },
+                            {
+                                "custom_id": "phone",
+                                "field_type": "tel",
+                                "required": "true",
+                                "field_label": "טלפון",
+                                "placeholder": "טלפון",
+                                "width": "50",
+                                "_id": "188bb81",
+                                "dce_form_stripe_item_value": "10.99",
+                                "dce_form_paypal_item_name": "no name",
+                                "dce_form_paypal_item_value": "0.1",
+                                "dce_form_paypal_message_approved": "Your PayPal order has been approved. Please submit the form to complete this payment.",
+                                "dce_form_stripe_currency": "USD",
+                                "dce_counter_step": "1"
+                            },
+                            {
+                                "custom_id": "email",
+                                "field_type": "email",
+                                "field_label": "מייל",
+                                "placeholder": "מייל",
+                                "_id": "d7f9ef4",
+                                "dce_form_stripe_item_value": "10.99",
+                                "dce_form_paypal_item_name": "no name",
+                                "dce_form_paypal_item_value": "0.1",
+                                "dce_form_paypal_message_approved": "Your PayPal order has been approved. Please submit the form to complete this payment.",
+                                "dce_form_stripe_currency": "USD",
+                                "dce_counter_step": "1"
+                            },
+                            {
+                                "custom_id": "type",
+                                "field_type": "select",
+                                "field_label": "משרת מילואים",
+                                "placeholder": "מייל",
+                                "dce_form_stripe_item_value": "10.99",
+                                "dce_form_paypal_item_name": "no name",
+                                "dce_form_paypal_item_value": "0.1",
+                                "dce_form_paypal_message_approved": "Your PayPal order has been approved. Please submit the form to complete this payment.",
+                                "dce_form_stripe_currency": "USD",
+                                "dce_counter_step": "1",
+                                "field_options": "קרבה למשרת מילואים:\nאני בשירות/שירתתי\nקרבה ראשונה\nקרבה שניה",
+                                "_id": "b35cc1a",
+                                "required": "true"
+                            },
+                            {
+                                "_id": "636da6c",
+                                "field_type": "hidden",
+                                "field_label": "page_title",
+                                "dce_form_stripe_currency": "USD",
+                                "dce_form_stripe_item_value": "10.99",
+                                "dce_form_paypal_item_name": "no name",
+                                "dce_form_paypal_item_value": "0.1",
+                                "dce_form_paypal_message_approved": "Your PayPal order has been approved. Please submit the form to complete this payment.",
+                                "dce_counter_step": "1",
+                                "custom_id": "page_title",
+                                "__dynamic__": {
+                                    "field_value": "[elementor-tag id=\"ec7f422\" name=\"post-title\" settings=\"%7B%22after%22%3A%22%20-%20%D7%A4%D7%95%D7%A4%D7%90%D7%A4%20%D7%94%D7%98%D7%91%D7%94%20%D7%9E%D7%99%D7%9C%D7%95%D7%90%D7%99%D7%9D%22%7D\"]"
+                                }
+                            }
+                        ],
+                        "show_labels": "",
+                        "button_align_mobile": "stretch",
+                        "step_next_label": "Next",
+                        "step_previous_label": "Previous",
+                        "button_text": "דברו איתי!",
+                        "email_to": "revital@bviral.co.il",
+                        "email_subject": "מתעניין חדש לקורס של ויראלי",
+                        "email_content": "[all-fields]",
+                        "email_from": "email@landing.bviral.co.il",
+                        "email_from_name": "landing",
+                        "email_to_2": "mailyossef@gmail.com",
+                        "email_subject_2": "New message from \"landing\"",
+                        "email_content_2": "[all-fields]",
+                        "email_from_2": "email@landing.bviral.co.il",
+                        "email_from_name_2": "landing",
+                        "email_reply_to_2": "mailyossef@gmail.com",
+                        "mailchimp_fields_map": [],
+                        "drip_fields_map": [],
+                        "activecampaign_fields_map": [],
+                        "getresponse_fields_map": [],
+                        "convertkit_fields_map": [],
+                        "mailerlite_fields_map": [],
+                        "dce_form_save_type_post_title": "Form Entry by [field id=\"name\"]",
+                        "dce_form_save_type_post_content": "[field id=\"message\"]",
+                        "dce_form_save_type_user_email": "[field id=\"email\"]",
+                        "dce_form_save_type_user_pass": "[field id=\"user_pass\"]",
+                        "dce_form_save_type_term_name": "Term [field id=\"name\"]",
+                        "dce_form_save_type_term_description": "[field id=\"message\"]",
+                        "dce_form_export_fields": [],
+                        "dce_form_export_headers": [
+                            {
+                                "dce_form_export_header_key": "Connection",
+                                "dce_form_export_header_value": "keep-alive",
+                                "_id": "d879c42"
+                            }
+                        ],
+                        "dce_form_pdf_log_path": "elementor/export/log__[date|Ymd].txt",
+                        "dce_form_pdf_name": "[date|U]",
+                        "dce_form_pdf_folder": "elementor/pdf/[date|Y]/[date|m]",
+                        "dce_form_pdf_svg_code_repeater": [],
+                        "dce_form_pdf_title": "Form data by [field id=\"name\"] in [date|Y-m-d H:i:s]",
+                        "dce_form_pdf_content": "[field id=\"message\"]",
+                        "dce_form_redirect_repeater": [],
+                        "dce_form_telegram_repeater": [],
+                        "dce_form_email_repeater": [],
+                        "dce_step_summary_submit_btn_text": "Submit Form",
+                        "success_message": "The form was sent successfully.",
+                        "error_message": "An error occurred.",
+                        "required_field_message": "This field is required.",
+                        "invalid_message": "There's something wrong. The form is invalid.",
+                        "label_color": "#FFFFFF",
+                        "field_typography_typography": "custom",
+                        "field_typography_font_family": "Heebo",
+                        "field_typography_font_weight": "400",
+                        "field_description_color": "#B34A53",
+                        "label_description_color": "#EAEAEA",
+                        "field_background_color": "#EAEAEA",
+                        "field_border_color": "#EB5F6C",
+                        "field_border_width": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": true
+                        },
+                        "field_border_radius": {
+                            "unit": "px",
+                            "top": "5",
+                            "right": "5",
+                            "bottom": "5",
+                            "left": "5",
+                            "isLinked": true
+                        },
+                        "button_background_hover_color": "#FF4B6F",
+                        "button_border_radius": {
+                            "unit": "px",
+                            "top": "33",
+                            "right": "33",
+                            "bottom": "33",
+                            "left": "33",
+                            "isLinked": true
+                        },
+                        "button_text_padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "_margin_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "_padding": {
+                            "unit": "%",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "7",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "_padding_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "__globals__": {
+                            "button_background_color": "",
+                            "field_text_color": "globals/colors?id=c294f1c",
+                            "button_background_hover_color": "",
+                            "label_color": ""
+                        },
+                        "dce_conditional_validations": [
+                            {
+                                "disabled": "yes",
+                                "error_message": "Your name should be Joe",
+                                "expression": "name == \"Joe\"",
+                                "error_field_id": "name",
+                                "_id": "bb2b2f1"
+                            }
+                        ],
+                        "dce_tooltip_content": "I'm a tooltip",
+                        "dce_confirm_dialog_title": "Confirm",
+                        "dce_confirm_dialog_confirm_button_text": "Confirm",
+                        "dce_confirm_dialog_cancel_button_text": "Cancel",
+                        "dce_form_favorites": [],
+                        "server_message": "שליחת הטופס נכשלה בגלל שגיאת שרת.",
+                        "field_typography_font_size": {
+                            "unit": "vw",
+                            "size": 1.100000000000000088817841970012523233890533447265625,
+                            "sizes": []
+                        },
+                        "field_typography_font_size_tablet": {
+                            "unit": "vw",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "field_typography_font_size_mobile": {
+                            "unit": "px",
+                            "size": 15,
+                            "sizes": []
+                        },
+                        "button_typography_typography": "custom",
+                        "button_typography_font_family": "Heebo",
+                        "button_typography_font_size": {
+                            "unit": "vw",
+                            "size": 1.3000000000000000444089209850062616169452667236328125,
+                            "sizes": []
+                        },
+                        "button_typography_font_size_tablet": {
+                            "unit": "vw",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "button_typography_font_size_mobile": {
+                            "unit": "px",
+                            "size": 16,
+                            "sizes": []
+                        },
+                        "button_typography_font_weight": "500",
+                        "jedv_conditions": [
+                            {
+                                "_id": "ce1cafb"
+                            }
+                        ],
+                        "content_width": "full",
+                        "label_typography_typography": "custom",
+                        "label_typography_font_family": "Roboto",
+                        "label_typography_font_size_mobile": {
+                            "unit": "px",
+                            "size": 16,
+                            "sizes": []
+                        },
+                        "label_typography_font_weight": "600",
+                        "input_size": "md",
+                        "button_size": "md",
+                        "submit_actions": [
+                            "save-to-database",
+                            "email",
+                            "redirect",
+                            "webhook"
+                        ],
+                        "redirect_to": "https://bviral.co.il/kpi/thanks/?button=1",
+                        "webhooks": "https://hooks.zapier.com/hooks/catch/4455145/2s3lasc/",
+                        "custom_css": "/* input field css */\nselector input::placeholder{\n    opacity: 1;\n}\n\nselector input:focus::placeholder {\n    opacity: 0;\n    transition: all 0.4s;\n}\n\n/* textarea field css */\nselector textarea::placeholder{\n    opacity: 1;\n}\n\nselector textarea:focus::placeholder {\n    opacity: 0;\n    transition: all 0.4s;\n}\n\nselector .elementor-select-wrapper::before {\n    color: #001689!important;\n}\n\nselector textarea {\n    resize: none;\n}\n\nselector input {\n    direction: rtl;\n}",
+                        "__dynamic__": [],
+                        "column_gap": {
+                            "unit": "px",
+                            "size": 11,
+                            "sizes": []
+                        },
+                        "row_gap": {
+                            "unit": "px",
+                            "size": 15,
+                            "sizes": []
+                        },
+                        "label_typography_font_size": {
+                            "unit": "px",
+                            "size": 1,
+                            "sizes": []
+                        },
+                        "html_color": "#2A3F0B",
+                        "html_typography_typography": "custom",
+                        "html_typography_font_family": "Heebo",
+                        "html_typography_font_size": {
+                            "unit": "vw",
+                            "size": 1,
+                            "sizes": []
+                        },
+                        "html_typography_font_size_tablet": {
+                            "unit": "vw",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "html_typography_font_size_mobile": {
+                            "unit": "vw",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "html_typography_font_weight": "400",
+                        "field_text_color": "#413C39",
+                        "button_background_color": "#2B400B",
+                        "_padding_tablet": {
+                            "unit": "%",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "_element_width": "inherit"
+                    },
+                    "elements": [],
+                    "widgetType": "form"
+                }
+            ],
+            "isInner": false
+        }
+    ]
+}

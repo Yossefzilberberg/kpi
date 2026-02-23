@@ -1,0 +1,1322 @@
+{
+    "post_id": 14049,
+    "post_title": "עמוד תודה לידים סילבוס",
+    "post_name": "syllabus-thanks",
+    "post_type": "page",
+    "post_status": "publish",
+    "elementor_version": "3.25.11",
+    "exported_at": "2026-02-23 18:55:42",
+    "elementor_data": [
+        {
+            "id": "522f49c",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "column",
+                "content_width": "full",
+                "padding": {
+                    "unit": "%",
+                    "top": "1",
+                    "right": "12",
+                    "bottom": "2",
+                    "left": "12",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "%",
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": "",
+                    "isLinked": true
+                },
+                "padding_mobile": {
+                    "unit": "%",
+                    "top": "1",
+                    "right": "5",
+                    "bottom": "12",
+                    "left": "5",
+                    "isLinked": false
+                },
+                "jedv_conditions": [
+                    {
+                        "_id": "702653a"
+                    }
+                ],
+                "overflow": "hidden",
+                "flex_gap_mobile": {
+                    "column": "0",
+                    "row": "0",
+                    "isLinked": false,
+                    "unit": "px",
+                    "size": 0
+                }
+            },
+            "elements": [
+                {
+                    "id": "352ad9e",
+                    "elType": "widget",
+                    "settings": {
+                        "image": {
+                            "url": "https://bviral.co.il/kpi/wp-content/uploads/2024/11/98-scaled.webp",
+                            "id": 13718,
+                            "size": "",
+                            "alt": "",
+                            "source": "library"
+                        },
+                        "width": {
+                            "unit": "%",
+                            "size": 17,
+                            "sizes": []
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 48,
+                            "sizes": []
+                        },
+                        "_margin_mobile": {
+                            "unit": "%",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "6",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "jedv_conditions": [
+                            {
+                                "_id": "1de5bbc"
+                            }
+                        ]
+                    },
+                    "elements": [],
+                    "widgetType": "image"
+                },
+                {
+                    "id": "fa7d727",
+                    "elType": "widget",
+                    "settings": {
+                        "_animation": "fadeInUp",
+                        "editor": "<p>זהו, הסילבוס שלנו</p>",
+                        "text_color": "#1E1C1C",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Heebo",
+                        "typography_font_size": {
+                            "unit": "vw",
+                            "size": 3.399999999999999911182158029987476766109466552734375,
+                            "sizes": []
+                        },
+                        "typography_font_weight": "600",
+                        "_margin": {
+                            "unit": "%",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "-1",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "align": "center",
+                        "typography_font_size_mobile": {
+                            "unit": "px",
+                            "size": 26,
+                            "sizes": []
+                        },
+                        "typography_line_height_mobile": {
+                            "unit": "em",
+                            "size": 1.1999999999999999555910790149937383830547332763671875,
+                            "sizes": []
+                        },
+                        "_margin_mobile": {
+                            "unit": "%",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "-6",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "_animation_mobile": "none",
+                        "dce_tooltip_content": "I'm a tooltip",
+                        "typography_font_size_tablet": {
+                            "unit": "vw",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "jedv_conditions": [
+                            {
+                                "_id": "ce0185c"
+                            }
+                        ],
+                        "content_width": "full",
+                        "typography_line_height": {
+                            "unit": "em",
+                            "size": 1,
+                            "sizes": []
+                        },
+                        "_margin_tablet": {
+                            "unit": "%",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        }
+                    },
+                    "elements": [],
+                    "widgetType": "text-editor"
+                },
+                {
+                    "id": "5f31ce2",
+                    "elType": "widget",
+                    "settings": {
+                        "_animation": "fadeInUp",
+                        "editor": "<p><span style=\"font-weight: 400;\"><strong><span style=\"color: #f05c6e;\">כבר בדרך לתיבת מייל שלך</span></strong></span></p>",
+                        "text_color": "#1E1C1C",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Heebo",
+                        "typography_font_size": {
+                            "unit": "vw",
+                            "size": 5.5999999999999996447286321199499070644378662109375,
+                            "sizes": []
+                        },
+                        "typography_font_weight": "600",
+                        "_margin": {
+                            "unit": "px",
+                            "top": "-12",
+                            "right": "0",
+                            "bottom": "-1",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "align": "center",
+                        "typography_font_size_mobile": {
+                            "unit": "px",
+                            "size": 41,
+                            "sizes": []
+                        },
+                        "typography_line_height_mobile": {
+                            "unit": "em",
+                            "size": 1.1999999999999999555910790149937383830547332763671875,
+                            "sizes": []
+                        },
+                        "_margin_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "_animation_mobile": "none",
+                        "dce_tooltip_content": "I'm a tooltip",
+                        "typography_font_size_tablet": {
+                            "unit": "vw",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "jedv_conditions": [
+                            {
+                                "_id": "ce0185c"
+                            }
+                        ],
+                        "content_width": "full",
+                        "typography_line_height": {
+                            "unit": "em",
+                            "size": 1,
+                            "sizes": []
+                        }
+                    },
+                    "elements": [],
+                    "widgetType": "text-editor"
+                },
+                {
+                    "id": "caf4d4d",
+                    "elType": "widget",
+                    "settings": {
+                        "content_width": "full",
+                        "editor": "<p><strong>נציג שלנו</strong> יצור איתך קשר בהקדם עם כל המידע שצריך לדעת כדי לעשות את הצעד הראשון לקריירה בתחום השיווק הדיגיטלי.</p>",
+                        "align": "center",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Heebo",
+                        "typography_font_size": {
+                            "unit": "vw",
+                            "size": 1.399999999999999911182158029987476766109466552734375,
+                            "sizes": []
+                        },
+                        "typography_font_size_tablet": {
+                            "unit": "vw",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                            "unit": "px",
+                            "size": 17,
+                            "sizes": []
+                        },
+                        "typography_font_weight": "300",
+                        "_padding": {
+                            "unit": "%",
+                            "top": "0",
+                            "right": "20",
+                            "bottom": "0",
+                            "left": "20",
+                            "isLinked": false
+                        },
+                        "_padding_tablet": {
+                            "unit": "%",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "_padding_mobile": {
+                            "unit": "%",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "_element_custom_width": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        },
+                        "_flex_align_self": "center",
+                        "jedv_conditions": [
+                            {
+                                "_id": "f9e4a34"
+                            }
+                        ],
+                        "__globals__": {
+                            "text_color": "globals/colors?id=c294f1c"
+                        },
+                        "_margin": {
+                            "unit": "%",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "-1",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "_margin_tablet": {
+                            "unit": "%",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "_margin_mobile": {
+                            "unit": "%",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "-3",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    },
+                    "elements": [],
+                    "widgetType": "text-editor"
+                },
+                {
+                    "id": "afdd0ca",
+                    "elType": "widget",
+                    "settings": {
+                        "content_width": "full",
+                        "text": "חזרה לדף הבית",
+                        "align": "center",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Heebo",
+                        "typography_font_size": {
+                            "unit": "vw",
+                            "size": 1.100000000000000088817841970012523233890533447265625,
+                            "sizes": []
+                        },
+                        "typography_font_size_tablet": {
+                            "unit": "vw",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                            "unit": "px",
+                            "size": 15,
+                            "sizes": []
+                        },
+                        "typography_font_weight": "500",
+                        "border_radius": {
+                            "unit": "px",
+                            "top": "34",
+                            "right": "34",
+                            "bottom": "34",
+                            "left": "34",
+                            "isLinked": true
+                        },
+                        "jedv_conditions": [
+                            {
+                                "_id": "125948c",
+                                "jedv_condition": "equal",
+                                "jedv_value": "1",
+                                "__dynamic__": {
+                                    "jedv_field": "[elementor-tag id=\"ca4e3ec\" name=\"request-arg\" settings=\"%7B%22param_name%22%3A%22button%22%7D\"]"
+                                }
+                            }
+                        ],
+                        "__globals__": {
+                            "background_color": "globals/colors?id=43441bf"
+                        },
+                        "selected_icon": {
+                            "value": "fas fa-chevron-circle-left",
+                            "library": "fa-solid"
+                        },
+                        "hover_animation": "float",
+                        "align_mobile": "center",
+                        "_element_width_mobile": "initial",
+                        "_element_custom_width_mobile": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        },
+                        "link": {
+                            "url": "",
+                            "is_external": "",
+                            "nofollow": "",
+                            "custom_attributes": ""
+                        },
+                        "_margin_mobile": {
+                            "unit": "px",
+                            "top": "5",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "__dynamic__": {
+                            "link": "[elementor-tag id=\"c74c19c\" name=\"site-url\" settings=\"%7B%7D\"]"
+                        },
+                        "jedv_enabled": "yes",
+                        "jedv_type": "hide",
+                        "_title": "חזרה לדף הבית"
+                    },
+                    "elements": [],
+                    "widgetType": "button"
+                },
+                {
+                    "id": "7ce907c",
+                    "elType": "widget",
+                    "settings": {
+                        "content_width": "full",
+                        "text": "חזרה לדף הבית",
+                        "align": "center",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Heebo",
+                        "typography_font_size": {
+                            "unit": "vw",
+                            "size": 1.100000000000000088817841970012523233890533447265625,
+                            "sizes": []
+                        },
+                        "typography_font_size_tablet": {
+                            "unit": "vw",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                            "unit": "px",
+                            "size": 15,
+                            "sizes": []
+                        },
+                        "typography_font_weight": "500",
+                        "border_radius": {
+                            "unit": "px",
+                            "top": "34",
+                            "right": "34",
+                            "bottom": "34",
+                            "left": "34",
+                            "isLinked": true
+                        },
+                        "jedv_conditions": [
+                            {
+                                "_id": "125948c",
+                                "jedv_condition": "equal",
+                                "jedv_value": "1",
+                                "__dynamic__": {
+                                    "jedv_field": "[elementor-tag id=\"ca4e3ec\" name=\"request-arg\" settings=\"%7B%22param_name%22%3A%22button%22%7D\"]"
+                                }
+                            }
+                        ],
+                        "__globals__": {
+                            "background_color": "globals/colors?id=43441bf"
+                        },
+                        "selected_icon": {
+                            "value": "fas fa-chevron-circle-left",
+                            "library": "fa-solid"
+                        },
+                        "hover_animation": "float",
+                        "align_mobile": "center",
+                        "_element_width_mobile": "initial",
+                        "_element_custom_width_mobile": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        },
+                        "link": {
+                            "url": "https://bviral.co.il/kpi/kpiab/",
+                            "is_external": "",
+                            "nofollow": "",
+                            "custom_attributes": ""
+                        },
+                        "_margin_mobile": {
+                            "unit": "px",
+                            "top": "5",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "__dynamic__": {
+                            "link": "[elementor-tag id=\"dfa1be0\" name=\"internal-url\" settings=\"%7B%22type%22%3A%22post%22%2C%22post_id%22%3A%2214195%22%7D\"]"
+                        },
+                        "jedv_enabled": "yes",
+                        "_title": "חזרה למיני סייט"
+                    },
+                    "elements": [],
+                    "widgetType": "button"
+                },
+                {
+                    "id": "e18c662",
+                    "elType": "widget",
+                    "settings": {
+                        "width": {
+                            "unit": "%",
+                            "size": 66,
+                            "sizes": []
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        },
+                        "align": "center",
+                        "text": "מפריד",
+                        "weight": {
+                            "unit": "px",
+                            "size": 1.899999999999999911182158029987476766109466552734375,
+                            "sizes": []
+                        },
+                        "gap": {
+                            "unit": "px",
+                            "size": 6,
+                            "sizes": []
+                        },
+                        "gap_mobile": {
+                            "unit": "px",
+                            "size": 12,
+                            "sizes": []
+                        },
+                        "jedv_conditions": [
+                            {
+                                "_id": "a558049"
+                            }
+                        ],
+                        "__globals__": {
+                            "color": "globals/colors?id=59837aa"
+                        }
+                    },
+                    "elements": [],
+                    "widgetType": "divider"
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "1235119",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "column",
+                "content_width": "full",
+                "padding": {
+                    "unit": "%",
+                    "top": "0",
+                    "right": "16",
+                    "bottom": "4",
+                    "left": "16",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "%",
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": "",
+                    "isLinked": true
+                },
+                "padding_mobile": {
+                    "unit": "%",
+                    "top": "0",
+                    "right": "5",
+                    "bottom": "8",
+                    "left": "5",
+                    "isLinked": false
+                },
+                "jedv_conditions": [
+                    {
+                        "_id": "6cf1434"
+                    }
+                ]
+            },
+            "elements": [
+                {
+                    "id": "3d053ee",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        },
+                        "flex_direction": "row",
+                        "flex_justify_content": "center",
+                        "flex_align_items": "center",
+                        "background_overlay_background": "classic",
+                        "background_overlay_opacity": {
+                            "unit": "px",
+                            "size": 1,
+                            "sizes": []
+                        },
+                        "border_radius": {
+                            "unit": "px",
+                            "top": "57",
+                            "right": "57",
+                            "bottom": "57",
+                            "left": "57",
+                            "isLinked": true
+                        },
+                        "padding": {
+                            "unit": "%",
+                            "top": "2",
+                            "right": "2",
+                            "bottom": "2",
+                            "left": "2",
+                            "isLinked": false
+                        },
+                        "padding_tablet": {
+                            "unit": "%",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "padding_mobile": {
+                            "unit": "%",
+                            "top": "6",
+                            "right": "7",
+                            "bottom": "6",
+                            "left": "7",
+                            "isLinked": false
+                        },
+                        "jedv_conditions": [
+                            {
+                                "_id": "bab95b4"
+                            }
+                        ],
+                        "__globals__": {
+                            "background_overlay_color": ""
+                        },
+                        "background_background": "classic",
+                        "background_image": {
+                            "url": "",
+                            "id": "",
+                            "size": "",
+                            "alt": "",
+                            "source": "library"
+                        },
+                        "background_position": "center center",
+                        "background_size": "cover",
+                        "background_overlay_image": {
+                            "url": "",
+                            "id": "",
+                            "size": "",
+                            "alt": "",
+                            "source": "library"
+                        },
+                        "background_overlay_position": "center center",
+                        "background_overlay_size": "cover",
+                        "css_filters_blur": {
+                            "unit": "px",
+                            "size": 7.5,
+                            "sizes": []
+                        },
+                        "css_filters_brightness": {
+                            "unit": "px",
+                            "size": 90,
+                            "sizes": []
+                        },
+                        "background_overlay_size_mobile": "initial",
+                        "background_overlay_bg_width_mobile": {
+                            "unit": "px",
+                            "size": 1000,
+                            "sizes": []
+                        },
+                        "background_overlay_opacity_mobile": {
+                            "unit": "px",
+                            "size": 1,
+                            "sizes": []
+                        },
+                        "background_overlay_color": "#24CC62",
+                        "background_overlay_color_stop": {
+                            "unit": "%",
+                            "size": 25,
+                            "sizes": []
+                        },
+                        "background_overlay_color_b": "#7E9C4C",
+                        "background_overlay_color_b_stop": {
+                            "unit": "%",
+                            "size": 70,
+                            "sizes": []
+                        },
+                        "background_overlay_gradient_angle": {
+                            "unit": "deg",
+                            "size": 251,
+                            "sizes": []
+                        },
+                        "border_radius_mobile": {
+                            "unit": "px",
+                            "top": "22",
+                            "right": "22",
+                            "bottom": "22",
+                            "left": "22",
+                            "isLinked": true
+                        }
+                    },
+                    "elements": [
+                        {
+                            "id": "7e0e02a",
+                            "elType": "widget",
+                            "settings": {
+                                "content_width": "full",
+                                "editor": "<p><span style=\"font-weight: 400;\">רוצה להתחיל לדבר איתנו <strong>עכשיו בוואטסאפ?</strong></span></p>",
+                                "align": "right",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Heebo",
+                                "typography_font_size": {
+                                    "unit": "vw",
+                                    "size": 1.600000000000000088817841970012523233890533447265625,
+                                    "sizes": []
+                                },
+                                "typography_font_size_tablet": {
+                                    "unit": "vw",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "typography_font_size_mobile": {
+                                    "unit": "px",
+                                    "size": 22,
+                                    "sizes": []
+                                },
+                                "typography_font_weight": "400",
+                                "_padding": {
+                                    "unit": "%",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_padding_tablet": {
+                                    "unit": "%",
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": "",
+                                    "isLinked": true
+                                },
+                                "_padding_mobile": {
+                                    "unit": "%",
+                                    "top": "0",
+                                    "right": "5",
+                                    "bottom": "0",
+                                    "left": "5",
+                                    "isLinked": false
+                                },
+                                "_element_custom_width": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                },
+                                "_flex_align_self": "center",
+                                "jedv_conditions": [
+                                    {
+                                        "_id": "f9e4a34"
+                                    }
+                                ],
+                                "__globals__": {
+                                    "text_color": "globals/colors?id=a2d27cc"
+                                },
+                                "_margin": {
+                                    "unit": "%",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "-3",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_margin_tablet": {
+                                    "unit": "%",
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": "",
+                                    "isLinked": true
+                                },
+                                "_margin_mobile": {
+                                    "unit": "%",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "-7",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "align_mobile": "center",
+                                "typography_line_height_mobile": {
+                                    "unit": "em",
+                                    "size": 1.3000000000000000444089209850062616169452667236328125,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "widgetType": "text-editor"
+                        },
+                        {
+                            "id": "9166b9a",
+                            "elType": "widget",
+                            "settings": {
+                                "text": " לחץ כאן",
+                                "link": {
+                                    "url": "https://wa.link/i9b8q6",
+                                    "is_external": "on",
+                                    "nofollow": "",
+                                    "custom_attributes": ""
+                                },
+                                "selected_icon": {
+                                    "value": "fab fa-whatsapp",
+                                    "library": "fa-brands"
+                                },
+                                "typography_typography": "custom",
+                                "typography_font_family": "Heebo",
+                                "typography_font_size": {
+                                    "unit": "vw",
+                                    "size": 1.3000000000000000444089209850062616169452667236328125,
+                                    "sizes": []
+                                },
+                                "typography_font_size_tablet": {
+                                    "unit": "vw",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "typography_font_size_mobile": {
+                                    "unit": "px",
+                                    "size": 18,
+                                    "sizes": []
+                                },
+                                "typography_font_weight": "500",
+                                "background_color": "#FBFFFC",
+                                "hover_animation": "float",
+                                "border_radius": {
+                                    "unit": "px",
+                                    "top": "33",
+                                    "right": "33",
+                                    "bottom": "33",
+                                    "left": "33",
+                                    "isLinked": true
+                                },
+                                "jedv_conditions": [
+                                    {
+                                        "_id": "346b17f"
+                                    }
+                                ],
+                                "__globals__": {
+                                    "button_text_color": "globals/colors?id=117c55e"
+                                },
+                                "__dynamic__": {
+                                    "link": "[elementor-tag id=\"c274be1\" name=\"off-canvas\" settings=\"%7B%22off_canvas%22%3A%22f42a203%22%7D\"]"
+                                }
+                            },
+                            "elements": [],
+                            "widgetType": "button"
+                        },
+                        {
+                            "id": "f42a203",
+                            "elType": "widget",
+                            "widgetType": "off-canvas",
+                            "settings": {
+                                "editing_mode": "",
+                                "off_canvas_name": "אופ-קנבס וואטסאפ",
+                                "horizontal_position": "center",
+                                "vertical_position": "center",
+                                "width": {
+                                    "unit": "%",
+                                    "size": 30,
+                                    "sizes": []
+                                },
+                                "width_tablet": {
+                                    "unit": "%",
+                                    "size": 50,
+                                    "sizes": []
+                                },
+                                "width_mobile": {
+                                    "unit": "vw",
+                                    "size": 50,
+                                    "sizes": []
+                                },
+                                "height_mobile": "fit-content",
+                                "custom_height": {
+                                    "unit": "vh",
+                                    "size": 17,
+                                    "sizes": []
+                                },
+                                "custom_height_tablet": {
+                                    "unit": "vh",
+                                    "size": 12,
+                                    "sizes": []
+                                },
+                                "custom_height_mobile": {
+                                    "unit": "vh",
+                                    "size": 53,
+                                    "sizes": []
+                                },
+                                "entrance_animation": "fadeIn",
+                                "exit_animation": "fadeIn",
+                                "border_width": {
+                                    "unit": "px",
+                                    "top": "2",
+                                    "right": "2",
+                                    "bottom": "2",
+                                    "left": "2",
+                                    "isLinked": true
+                                },
+                                "border_radius": {
+                                    "unit": "px",
+                                    "top": "25",
+                                    "right": "25",
+                                    "bottom": "25",
+                                    "left": "25",
+                                    "isLinked": true
+                                },
+                                "jedv_conditions": [
+                                    {
+                                        "_id": "3c0723e"
+                                    }
+                                ],
+                                "__globals__": {
+                                    "border_color": "globals/colors?id=9db85ab"
+                                },
+                                "height": "fit-content"
+                            },
+                            "elements": [
+                                {
+                                    "id": "a81c659",
+                                    "elType": "container",
+                                    "settings": {
+                                        "content_width": "full",
+                                        "flex_direction": "column",
+                                        "flex_align_items": "center",
+                                        "padding": {
+                                            "unit": "%",
+                                            "top": "8",
+                                            "right": "5",
+                                            "bottom": "8",
+                                            "left": "5",
+                                            "isLinked": false
+                                        },
+                                        "padding_tablet": {
+                                            "unit": "em",
+                                            "top": "2",
+                                            "right": "2",
+                                            "bottom": "0",
+                                            "left": "2",
+                                            "isLinked": false
+                                        },
+                                        "padding_mobile": {
+                                            "unit": "em",
+                                            "top": "2",
+                                            "right": "2",
+                                            "bottom": "2",
+                                            "left": "2",
+                                            "isLinked": false
+                                        },
+                                        "jedv_conditions": [
+                                            {
+                                                "_id": "f6b52b3"
+                                            }
+                                        ]
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "701be25",
+                                            "elType": "widget",
+                                            "settings": {
+                                                "_animation": "none",
+                                                "editor": "למעבר לווטסאפ <br class=\"elementor-hidden-desktop\">אנא הזינו מס' טלפון",
+                                                "text_color": "#1E1C1C",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Heebo",
+                                                "typography_font_size": {
+                                                    "unit": "vw",
+                                                    "size": 1.399999999999999911182158029987476766109466552734375,
+                                                    "sizes": []
+                                                },
+                                                "typography_font_weight": "800",
+                                                "_margin": {
+                                                    "unit": "%",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "-1",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "align": "center",
+                                                "typography_font_size_mobile": {
+                                                    "unit": "px",
+                                                    "size": 22,
+                                                    "sizes": []
+                                                },
+                                                "typography_line_height_mobile": {
+                                                    "unit": "em",
+                                                    "size": 1.1999999999999999555910790149937383830547332763671875,
+                                                    "sizes": []
+                                                },
+                                                "_margin_mobile": {
+                                                    "unit": "%",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "-6",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "_animation_mobile": "none",
+                                                "dce_tooltip_content": "I'm a tooltip",
+                                                "typography_font_size_tablet": {
+                                                    "unit": "px",
+                                                    "size": 16,
+                                                    "sizes": []
+                                                },
+                                                "jedv_conditions": [
+                                                    {
+                                                        "_id": "ce0185c"
+                                                    }
+                                                ],
+                                                "content_width": "full",
+                                                "typography_line_height": {
+                                                    "unit": "em",
+                                                    "size": 1,
+                                                    "sizes": []
+                                                },
+                                                "_margin_tablet": {
+                                                    "unit": "%",
+                                                    "top": "",
+                                                    "right": "",
+                                                    "bottom": "",
+                                                    "left": "",
+                                                    "isLinked": true
+                                                },
+                                                "custom_css": "selector p{\n    margin: 0px;\n}"
+                                            },
+                                            "elements": [],
+                                            "widgetType": "text-editor"
+                                        },
+                                        {
+                                            "id": "1943678",
+                                            "elType": "widget",
+                                            "settings": {
+                                                "form_name": "טופס מעבר לוואטסאפ",
+                                                "form_fields": [
+                                                    {
+                                                        "custom_id": "phone",
+                                                        "field_type": "tel",
+                                                        "required": "true",
+                                                        "field_label": "טלפון",
+                                                        "placeholder": "טלפון",
+                                                        "width": "50",
+                                                        "_id": "188bb81",
+                                                        "dce_form_stripe_item_value": "10.99",
+                                                        "dce_form_paypal_item_name": "no name",
+                                                        "dce_form_paypal_item_value": "0.1",
+                                                        "dce_form_paypal_message_approved": "Your PayPal order has been approved. Please submit the form to complete this payment.",
+                                                        "dce_form_stripe_currency": "USD",
+                                                        "dce_counter_step": "1"
+                                                    },
+                                                    {
+                                                        "_id": "636da6c",
+                                                        "field_type": "hidden",
+                                                        "field_label": "page_title",
+                                                        "dce_form_stripe_currency": "USD",
+                                                        "dce_form_stripe_item_value": "10.99",
+                                                        "dce_form_paypal_item_name": "no name",
+                                                        "dce_form_paypal_item_value": "0.1",
+                                                        "dce_form_paypal_message_approved": "Your PayPal order has been approved. Please submit the form to complete this payment.",
+                                                        "dce_counter_step": "1",
+                                                        "custom_id": "page_title",
+                                                        "__dynamic__": {
+                                                            "field_value": "[elementor-tag id=\"ec7f422\" name=\"post-title\" settings=\"%7B%7D\"]"
+                                                        }
+                                                    }
+                                                ],
+                                                "show_labels": "",
+                                                "button_align_mobile": "stretch",
+                                                "step_next_label": "Next",
+                                                "step_previous_label": "Previous",
+                                                "button_text": "מעבר לוואטסאפ",
+                                                "email_to": "revital@bviral.co.il",
+                                                "email_subject": "מתעניין חדש לקורס של ויראלי",
+                                                "email_content": "[all-fields]",
+                                                "email_from": "email@landing.bviral.co.il",
+                                                "email_from_name": "landing",
+                                                "email_to_2": "mailyossef@gmail.com",
+                                                "email_subject_2": "New message from \"landing\"",
+                                                "email_content_2": "[all-fields]",
+                                                "email_from_2": "email@landing.bviral.co.il",
+                                                "email_from_name_2": "landing",
+                                                "email_reply_to_2": "mailyossef@gmail.com",
+                                                "mailchimp_fields_map": [],
+                                                "drip_fields_map": [],
+                                                "activecampaign_fields_map": [],
+                                                "getresponse_fields_map": [],
+                                                "convertkit_fields_map": [],
+                                                "mailerlite_fields_map": [],
+                                                "dce_form_save_type_post_title": "Form Entry by [field id=\"name\"]",
+                                                "dce_form_save_type_post_content": "[field id=\"message\"]",
+                                                "dce_form_save_type_user_email": "[field id=\"email\"]",
+                                                "dce_form_save_type_user_pass": "[field id=\"user_pass\"]",
+                                                "dce_form_save_type_term_name": "Term [field id=\"name\"]",
+                                                "dce_form_save_type_term_description": "[field id=\"message\"]",
+                                                "dce_form_export_fields": [],
+                                                "dce_form_export_headers": [
+                                                    {
+                                                        "dce_form_export_header_key": "Connection",
+                                                        "dce_form_export_header_value": "keep-alive",
+                                                        "_id": "d879c42"
+                                                    }
+                                                ],
+                                                "dce_form_pdf_log_path": "elementor/export/log__[date|Ymd].txt",
+                                                "dce_form_pdf_name": "[date|U]",
+                                                "dce_form_pdf_folder": "elementor/pdf/[date|Y]/[date|m]",
+                                                "dce_form_pdf_svg_code_repeater": [],
+                                                "dce_form_pdf_title": "Form data by [field id=\"name\"] in [date|Y-m-d H:i:s]",
+                                                "dce_form_pdf_content": "[field id=\"message\"]",
+                                                "dce_form_redirect_repeater": [],
+                                                "dce_form_telegram_repeater": [],
+                                                "dce_form_email_repeater": [],
+                                                "dce_step_summary_submit_btn_text": "Submit Form",
+                                                "success_message": "The form was sent successfully.",
+                                                "error_message": "An error occurred.",
+                                                "required_field_message": "This field is required.",
+                                                "invalid_message": "There's something wrong. The form is invalid.",
+                                                "label_color": "#FFFFFF",
+                                                "field_typography_typography": "custom",
+                                                "field_typography_font_family": "Heebo",
+                                                "field_typography_font_weight": "400",
+                                                "field_description_color": "#B34A53",
+                                                "label_description_color": "#EAEAEA",
+                                                "field_background_color": "#EAEAEA",
+                                                "field_border_color": "#EB5F6C",
+                                                "field_border_width": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": true
+                                                },
+                                                "field_border_radius": {
+                                                    "unit": "px",
+                                                    "top": "5",
+                                                    "right": "5",
+                                                    "bottom": "5",
+                                                    "left": "5",
+                                                    "isLinked": true
+                                                },
+                                                "button_background_hover_color": "#12AA4B",
+                                                "button_border_radius": {
+                                                    "unit": "px",
+                                                    "top": "33",
+                                                    "right": "33",
+                                                    "bottom": "33",
+                                                    "left": "33",
+                                                    "isLinked": true
+                                                },
+                                                "button_text_padding": {
+                                                    "unit": "px",
+                                                    "top": "10",
+                                                    "right": "10",
+                                                    "bottom": "10",
+                                                    "left": "10",
+                                                    "isLinked": true
+                                                },
+                                                "_margin_mobile": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "_padding": {
+                                                    "unit": "%",
+                                                    "top": "",
+                                                    "right": "",
+                                                    "bottom": "",
+                                                    "left": "",
+                                                    "isLinked": true
+                                                },
+                                                "_padding_mobile": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "__globals__": {
+                                                    "button_background_color": "",
+                                                    "field_text_color": "globals/colors?id=c294f1c",
+                                                    "button_background_hover_color": "",
+                                                    "label_color": ""
+                                                },
+                                                "dce_conditional_validations": [
+                                                    {
+                                                        "disabled": "yes",
+                                                        "error_message": "Your name should be Joe",
+                                                        "expression": "name == \"Joe\"",
+                                                        "error_field_id": "name",
+                                                        "_id": "bb2b2f1"
+                                                    }
+                                                ],
+                                                "dce_tooltip_content": "I'm a tooltip",
+                                                "dce_confirm_dialog_title": "Confirm",
+                                                "dce_confirm_dialog_confirm_button_text": "Confirm",
+                                                "dce_confirm_dialog_cancel_button_text": "Cancel",
+                                                "dce_form_favorites": [],
+                                                "server_message": "שליחת הטופס נכשלה בגלל שגיאת שרת.",
+                                                "field_typography_font_size": {
+                                                    "unit": "vw",
+                                                    "size": 1.100000000000000088817841970012523233890533447265625,
+                                                    "sizes": []
+                                                },
+                                                "field_typography_font_size_tablet": {
+                                                    "unit": "vw",
+                                                    "size": "",
+                                                    "sizes": []
+                                                },
+                                                "field_typography_font_size_mobile": {
+                                                    "unit": "px",
+                                                    "size": 15,
+                                                    "sizes": []
+                                                },
+                                                "button_typography_typography": "custom",
+                                                "button_typography_font_family": "Heebo",
+                                                "button_typography_font_size": {
+                                                    "unit": "vw",
+                                                    "size": 1.3000000000000000444089209850062616169452667236328125,
+                                                    "sizes": []
+                                                },
+                                                "button_typography_font_size_tablet": {
+                                                    "unit": "vw",
+                                                    "size": "",
+                                                    "sizes": []
+                                                },
+                                                "button_typography_font_size_mobile": {
+                                                    "unit": "px",
+                                                    "size": 16,
+                                                    "sizes": []
+                                                },
+                                                "button_typography_font_weight": "500",
+                                                "jedv_conditions": [
+                                                    {
+                                                        "_id": "ce1cafb"
+                                                    }
+                                                ],
+                                                "content_width": "full",
+                                                "label_typography_typography": "custom",
+                                                "label_typography_font_family": "Roboto",
+                                                "label_typography_font_size_mobile": {
+                                                    "unit": "px",
+                                                    "size": 16,
+                                                    "sizes": []
+                                                },
+                                                "label_typography_font_weight": "600",
+                                                "input_size": "md",
+                                                "button_size": "md",
+                                                "submit_actions": [
+                                                    "save-to-database",
+                                                    "email",
+                                                    "redirect",
+                                                    "webhook"
+                                                ],
+                                                "redirect_to": "https://api.whatsapp.com/send?phone=972533524920",
+                                                "webhooks": "https://hooks.zapier.com/hooks/catch/4455145/2818mtr/",
+                                                "custom_css": "/* input field css */\nselector input::placeholder{\n    opacity: 1;\n}\n\nselector input:focus::placeholder {\n    opacity: 0;\n    transition: all 0.4s;\n}\n\n/* textarea field css */\nselector textarea::placeholder{\n    opacity: 1;\n}\n\nselector textarea:focus::placeholder {\n    opacity: 0;\n    transition: all 0.4s;\n}\n\nselector .elementor-select-wrapper::before {\n    color: #001689!important;\n}\n\nselector textarea {\n    resize: none;\n}\n\nselector input {\n    direction: rtl;\n}",
+                                                "__dynamic__": [],
+                                                "column_gap": {
+                                                    "unit": "px",
+                                                    "size": 11,
+                                                    "sizes": []
+                                                },
+                                                "row_gap": {
+                                                    "unit": "px",
+                                                    "size": 15,
+                                                    "sizes": []
+                                                },
+                                                "label_typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 1,
+                                                    "sizes": []
+                                                },
+                                                "html_color": "#2A3F0B",
+                                                "html_typography_typography": "custom",
+                                                "html_typography_font_family": "Heebo",
+                                                "html_typography_font_size": {
+                                                    "unit": "vw",
+                                                    "size": 1,
+                                                    "sizes": []
+                                                },
+                                                "html_typography_font_size_tablet": {
+                                                    "unit": "vw",
+                                                    "size": "",
+                                                    "sizes": []
+                                                },
+                                                "html_typography_font_size_mobile": {
+                                                    "unit": "vw",
+                                                    "size": "",
+                                                    "sizes": []
+                                                },
+                                                "html_typography_font_weight": "400",
+                                                "field_text_color": "#413C39",
+                                                "_padding_tablet": {
+                                                    "unit": "%",
+                                                    "top": "",
+                                                    "right": "",
+                                                    "bottom": "",
+                                                    "left": "",
+                                                    "isLinked": true
+                                                },
+                                                "_element_width": "inherit",
+                                                "button_width": "50",
+                                                "button_background_color": "#25D366"
+                                            },
+                                            "elements": [],
+                                            "widgetType": "form"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "isLocked": true
+                                }
+                            ]
+                        }
+                    ],
+                    "isInner": true
+                }
+            ],
+            "isInner": false
+        }
+    ]
+}

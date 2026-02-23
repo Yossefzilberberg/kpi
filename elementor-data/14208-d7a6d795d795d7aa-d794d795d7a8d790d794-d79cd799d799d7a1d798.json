@@ -1,0 +1,156 @@
+{
+    "post_id": 14208,
+    "post_title": "צוות הוראה - לייסט",
+    "post_name": "%d7%a6%d7%95%d7%95%d7%aa-%d7%94%d7%95%d7%a8%d7%90%d7%94-%d7%9c%d7%99%d7%99%d7%a1%d7%98",
+    "post_type": "jet-engine",
+    "post_status": "publish",
+    "elementor_version": "3.25.11",
+    "exported_at": "2026-02-23 18:55:42",
+    "elementor_data": [
+        {
+            "id": "9bd8ce4",
+            "elType": "container",
+            "settings": {
+                "content_width": "full",
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "jedv_conditions": [
+                    {
+                        "_id": "8188728"
+                    }
+                ]
+            },
+            "elements": [
+                {
+                    "id": "824aaf5",
+                    "elType": "widget",
+                    "settings": {
+                        "image": {
+                            "url": "https://bviral.co.il/kpi/wp-content/uploads/2024/11/5.svg",
+                            "id": 13250,
+                            "size": "",
+                            "alt": "",
+                            "source": "library"
+                        },
+                        "title_text": "יוסף זילברברג",
+                        "description_text": "בעלים ומנכ״ל בחברת ויראלי, 16 שנים בתחום. תארים בחינוך ותקשורת MA, אוניברסיטת בר אילן,  אוניברסיטת רייכמן, MIT ואוניברסיטת קולומביה. \n\n",
+                        "title_size": "h6",
+                        "image_size": {
+                            "unit": "%",
+                            "size": 50,
+                            "sizes": []
+                        },
+                        "title_color": "#121313",
+                        "title_typography_typography": "custom",
+                        "title_typography_font_family": "Heebo",
+                        "title_typography_font_size": {
+                            "unit": "vw",
+                            "size": 1.399999999999999911182158029987476766109466552734375,
+                            "sizes": []
+                        },
+                        "title_typography_font_size_tablet": {
+                            "unit": "vw",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "title_typography_font_size_mobile": {
+                            "unit": "px",
+                            "size": 22,
+                            "sizes": []
+                        },
+                        "title_typography_font_weight": "600",
+                        "description_color": "#121313",
+                        "description_typography_typography": "custom",
+                        "description_typography_font_family": "Heebo",
+                        "description_typography_font_size": {
+                            "unit": "vw",
+                            "size": 0.90000000000000002220446049250313080847263336181640625,
+                            "sizes": []
+                        },
+                        "description_typography_font_size_tablet": {
+                            "unit": "vw",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "description_typography_font_size_mobile": {
+                            "unit": "px",
+                            "size": 15,
+                            "sizes": []
+                        },
+                        "description_typography_font_weight": "400",
+                        "_padding": {
+                            "unit": "%",
+                            "top": "10",
+                            "right": "8",
+                            "bottom": "10",
+                            "left": "8",
+                            "isLinked": false
+                        },
+                        "_padding_tablet": {
+                            "unit": "%",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "_padding_mobile": {
+                            "unit": "%",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "jedv_conditions": [
+                            {
+                                "_id": "7b4e25f"
+                            }
+                        ],
+                        "_background_background": "classic",
+                        "_background_color": "#F4F2F2",
+                        "_border_radius": {
+                            "unit": "px",
+                            "top": "17",
+                            "right": "17",
+                            "bottom": "17",
+                            "left": "17",
+                            "isLinked": true
+                        },
+                        "image_space_mobile": {
+                            "unit": "px",
+                            "size": 0,
+                            "sizes": []
+                        },
+                        "title_bottom_space_mobile": {
+                            "unit": "px",
+                            "size": 6,
+                            "sizes": []
+                        },
+                        "title_bottom_space": {
+                            "unit": "px",
+                            "size": 0,
+                            "sizes": []
+                        },
+                        "custom_css": ".staff .elementor-image-box-wrapper {\r\n    height: 45vh;\r\n}",
+                        "__dynamic__": {
+                            "image": "[elementor-tag id=\"a62ceb1\" name=\"jet-cct-image\" settings=\"%7B%22content_type_field%22%3A%22staff__team_person_image%22%2C%22fallback%22%3A%7B%22url%22%3A%22https%3A%2F%2Fbviral.co.il%2Fkpi%2Fwp-content%2Fuploads%2F2023%2F06%2Flogo-atart.png%22%2C%22id%22%3A11862%2C%22size%22%3A%22%22%2C%22alt%22%3A%22%22%2C%22source%22%3A%22library%22%7D%7D\"]",
+                            "title_text": "[elementor-tag id=\"b664afc\" name=\"jet-cct-field\" settings=\"%7B%22content_type_field%22%3A%22staff__team_person_name%22%7D\"]",
+                            "description_text": "[elementor-tag id=\"20214ff\" name=\"jet-cct-field\" settings=\"%7B%22content_type_field%22%3A%22staff__team_person_content%22%7D\"]"
+                        },
+                        "_css_classes": "staff"
+                    },
+                    "elements": [],
+                    "widgetType": "image-box"
+                }
+            ],
+            "isInner": false
+        }
+    ]
+}

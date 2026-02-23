@@ -1,0 +1,1426 @@
+{
+    "post_id": 14222,
+    "post_title": "מבחן התאמה",
+    "post_name": "tryout",
+    "post_type": "page",
+    "post_status": "publish",
+    "elementor_version": "3.25.11",
+    "exported_at": "2026-02-23 18:55:42",
+    "elementor_data": [
+        {
+            "id": "1cffcff",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "row",
+                "jedv_conditions": [
+                    {
+                        "_id": "0ea0478"
+                    }
+                ],
+                "content_width": "full",
+                "flex_justify_content": "space-between",
+                "background_background": "classic",
+                "background_image": {
+                    "url": "",
+                    "id": "",
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                },
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "padding": {
+                    "unit": "%",
+                    "top": "1",
+                    "right": "3",
+                    "bottom": "2",
+                    "left": "3",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "%",
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": "",
+                    "isLinked": true
+                },
+                "padding_mobile": {
+                    "unit": "%",
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": "",
+                    "isLinked": true
+                },
+                "sticky": "top",
+                "hide_tablet": "hidden-tablet",
+                "hide_mobile": "hidden-mobile",
+                "sticky_anchor_link_offset": 50
+            },
+            "elements": [
+                {
+                    "id": "8b9406e",
+                    "elType": "widget",
+                    "settings": {
+                        "content_width": "full",
+                        "image": {
+                            "url": "https://bviral.co.il/kpi/wp-content/uploads/2024/11/i02.svg",
+                            "id": 13144,
+                            "size": "",
+                            "alt": "",
+                            "source": "library"
+                        },
+                        "image_size": "full",
+                        "width": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        },
+                        "_element_width": "auto",
+                        "_element_custom_width": {
+                            "unit": "%",
+                            "size": 25,
+                            "sizes": []
+                        },
+                        "_flex_align_self": "center",
+                        "jedv_conditions": [
+                            {
+                                "_id": "1d55d04"
+                            }
+                        ],
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        },
+                        "link_to": "custom",
+                        "__dynamic__": [],
+                        "_margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "_padding": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "link": {
+                            "url": "https://bviral.co.il/kpi/kpiab/",
+                            "is_external": "",
+                            "nofollow": "",
+                            "custom_attributes": ""
+                        }
+                    },
+                    "elements": [],
+                    "widgetType": "image"
+                },
+                {
+                    "id": "27fd8d6",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "jedv_conditions": [
+                            {
+                                "_id": "b84e4c0"
+                            }
+                        ],
+                        "width": {
+                            "unit": "%",
+                            "size": 55,
+                            "sizes": []
+                        },
+                        "background_background": "classic",
+                        "background_color": "#FFFFFF",
+                        "border_radius": {
+                            "unit": "px",
+                            "top": "51",
+                            "right": "51",
+                            "bottom": "51",
+                            "left": "51",
+                            "isLinked": true
+                        },
+                        "__globals__": {
+                            "background_color": ""
+                        },
+                        "flex_justify_content": "center"
+                    },
+                    "elements": [
+                        {
+                            "id": "e1c1bc9",
+                            "elType": "widget",
+                            "settings": {
+                                "content_width": "full",
+                                "menu_name": "תפריט",
+                                "menu": "menu2",
+                                "jedv_conditions": [
+                                    {
+                                        "_id": "e441f9f"
+                                    }
+                                ],
+                                "align_items": "center",
+                                "pointer": "none",
+                                "menu_typography_typography": "custom",
+                                "menu_typography_font_family": "Heebo",
+                                "menu_typography_font_size": {
+                                    "unit": "vw",
+                                    "size": 1.100000000000000088817841970012523233890533447265625,
+                                    "sizes": []
+                                },
+                                "menu_typography_font_size_tablet": {
+                                    "unit": "vw",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "menu_typography_font_size_mobile": {
+                                    "unit": "vw",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "menu_typography_font_weight": "500",
+                                "__globals__": {
+                                    "color_menu_item": "globals/colors?id=9a155aa",
+                                    "color_menu_item_hover": "globals/colors?id=43441bf"
+                                },
+                                "sticky": "top",
+                                "sticky_on": [],
+                                "sticky_anchor_link_offset": 60,
+                                "padding_horizontal_menu_item": {
+                                    "unit": "px",
+                                    "size": 13,
+                                    "sizes": []
+                                },
+                                "menu_space_between": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "widgetType": "nav-menu"
+                        }
+                    ],
+                    "isInner": true
+                },
+                {
+                    "id": "82857c8",
+                    "elType": "widget",
+                    "settings": {
+                        "content_width": "full",
+                        "text": "יועץ לימודים ללא עלות",
+                        "align": "justify",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Heebo",
+                        "typography_font_size": {
+                            "unit": "vw",
+                            "size": 1,
+                            "sizes": []
+                        },
+                        "typography_font_size_tablet": {
+                            "unit": "vw",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                            "unit": "vw",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "typography_font_weight": "600",
+                        "border_radius": {
+                            "unit": "px",
+                            "top": "34",
+                            "right": "34",
+                            "bottom": "34",
+                            "left": "34",
+                            "isLinked": true
+                        },
+                        "jedv_conditions": [
+                            {
+                                "_id": "125948c"
+                            }
+                        ],
+                        "__globals__": {
+                            "background_color": "globals/colors?id=43441bf",
+                            "button_background_hover_color": "globals/colors?id=27ba8a7"
+                        },
+                        "text_padding": {
+                            "unit": "%",
+                            "top": "8",
+                            "right": "8",
+                            "bottom": "6",
+                            "left": "8",
+                            "isLinked": false
+                        },
+                        "text_padding_tablet": {
+                            "unit": "%",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "text_padding_mobile": {
+                            "unit": "%",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "_element_width": "initial",
+                        "_element_custom_width": {
+                            "unit": "%",
+                            "size": 15,
+                            "sizes": []
+                        },
+                        "_flex_align_self": "center",
+                        "selected_icon": {
+                            "value": {
+                                "url": "https://bviral.co.il/kpi/wp-content/uploads/2024/12/02.svg",
+                                "id": 14670
+                            },
+                            "library": "svg"
+                        },
+                        "link": {
+                            "url": "https://bviral.co.il/kpi/kpiab/#tofes",
+                            "is_external": "",
+                            "nofollow": "",
+                            "custom_attributes": ""
+                        },
+                        "__dynamic__": []
+                    },
+                    "elements": [],
+                    "widgetType": "button"
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "baa75ff",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "row",
+                "jedv_conditions": [
+                    {
+                        "_id": "0ea0478"
+                    }
+                ],
+                "content_width": "full",
+                "flex_justify_content": "space-between",
+                "background_background": "classic",
+                "background_image": {
+                    "url": "",
+                    "id": "",
+                    "size": "",
+                    "alt": "",
+                    "source": "library"
+                },
+                "margin": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "padding": {
+                    "unit": "%",
+                    "top": "1",
+                    "right": "4",
+                    "bottom": "2",
+                    "left": "4",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "%",
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": "",
+                    "isLinked": true
+                },
+                "padding_mobile": {
+                    "unit": "%",
+                    "top": "2",
+                    "right": "04",
+                    "bottom": "2",
+                    "left": "4",
+                    "isLinked": false
+                },
+                "sticky": "top",
+                "hide_desktop": "hidden-desktop"
+            },
+            "elements": [
+                {
+                    "id": "f43f091",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "jedv_conditions": [
+                            {
+                                "_id": "b84e4c0"
+                            }
+                        ],
+                        "width": {
+                            "unit": "%",
+                            "size": 45,
+                            "sizes": []
+                        },
+                        "background_background": "classic",
+                        "background_color": "#FFFFFF",
+                        "border_radius": {
+                            "unit": "px",
+                            "top": "51",
+                            "right": "51",
+                            "bottom": "51",
+                            "left": "51",
+                            "isLinked": true
+                        },
+                        "__globals__": {
+                            "background_color": ""
+                        },
+                        "width_mobile": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        },
+                        "flex_direction_mobile": "row",
+                        "flex_justify_content_mobile": "space-between"
+                    },
+                    "elements": [
+                        {
+                            "id": "53491e3",
+                            "elType": "widget",
+                            "settings": {
+                                "menu_id": "28",
+                                "hamburger_color": "#BD1A1A00",
+                                "hamburger_icon_color": "#413C39",
+                                "hamburger_color_hover": "#F70C0C00",
+                                "hamburger_icon_color_hover": "#413C39",
+                                "hamburger_size_mobile": {
+                                    "unit": "px",
+                                    "size": 63,
+                                    "sizes": []
+                                },
+                                "hamburger_radius": {
+                                    "unit": "px",
+                                    "size": 0,
+                                    "sizes": []
+                                },
+                                "icon_thickness": {
+                                    "unit": "px",
+                                    "size": 1,
+                                    "sizes": []
+                                },
+                                "hamburger_active_bg": "#413C3900",
+                                "hamburger_icon_active_color": "#413C39",
+                                "menu_background_color": "#F05C6E73",
+                                "menu_background_image_mobile": {
+                                    "url": "https://bviral.co.il/kpi/wp-content/uploads/2024/11/shakuf.png",
+                                    "id": 13579,
+                                    "size": "",
+                                    "alt": "",
+                                    "source": "library"
+                                },
+                                "menu_background_position_mobile": "center center",
+                                "menu_background_size_mobile": "cover",
+                                "menu_items_typography_typography": "custom",
+                                "menu_items_typography_font_family": "Heebo",
+                                "menu_items_typography_font_size_mobile": {
+                                    "unit": "vw",
+                                    "size": 7.0999999999999996447286321199499070644378662109375,
+                                    "sizes": []
+                                },
+                                "menu_items_typography_font_weight": "500",
+                                "menu_items_typography_line_height_mobile": {
+                                    "unit": "em",
+                                    "size": 2,
+                                    "sizes": []
+                                },
+                                "uc_items": [
+                                    {
+                                        "title": "Facebook",
+                                        "icon_html": "<i class='fab fa-facebook'></i>",
+                                        "link": {
+                                            "url": "#"
+                                        },
+                                        "_generated_id": "4kj79",
+                                        "item_repeater_class": "elementor-repeater-item-4kj79",
+                                        "_id": "cee2e6c"
+                                    },
+                                    {
+                                        "title": "Twitter",
+                                        "icon": {
+                                            "library": "brands",
+                                            "value": "fab fa-twitter"
+                                        },
+                                        "icon_html": "<i class='fab fa-twitter'></i>",
+                                        "link": {
+                                            "url": "#"
+                                        },
+                                        "_generated_id": "1iqw3",
+                                        "item_repeater_class": "elementor-repeater-item-1iqw3",
+                                        "_id": "2b253c4"
+                                    },
+                                    {
+                                        "title": "Instagram",
+                                        "icon": {
+                                            "library": "brands",
+                                            "value": "fab fa-instagram"
+                                        },
+                                        "icon_html": "<i class='fab fa-instagram'></i>",
+                                        "link": {
+                                            "url": "#"
+                                        },
+                                        "_generated_id": "104r4",
+                                        "item_repeater_class": "elementor-repeater-item-104r4",
+                                        "_id": "3e2017b"
+                                    }
+                                ],
+                                "_margin_mobile": {
+                                    "unit": "%",
+                                    "top": "-18",
+                                    "right": "0",
+                                    "bottom": "-21",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "jedv_conditions": [
+                                    {
+                                        "_id": "91c3cf0"
+                                    }
+                                ],
+                                "__globals__": {
+                                    "hamburger_icon_color": "globals/colors?id=c294f1c",
+                                    "hamburger_active_bg": "",
+                                    "hamburger_icon_active_color": "globals/colors?id=c294f1c",
+                                    "hamburger_icon_color_hover": "globals/colors?id=c294f1c",
+                                    "link_colors": "globals/colors?id=c294f1c",
+                                    "menu_background_color": ""
+                                },
+                                "vertical_position_offset_mobile": {
+                                    "unit": "px",
+                                    "size": 1,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "widgetType": "ucaddon_fullscreen_navigation_menu"
+                        },
+                        {
+                            "id": "94beb46",
+                            "elType": "widget",
+                            "settings": {
+                                "content_width": "full",
+                                "image": {
+                                    "url": "https://bviral.co.il/kpi/wp-content/uploads/2024/11/i02.svg",
+                                    "id": 13144,
+                                    "size": "",
+                                    "alt": "",
+                                    "source": "library"
+                                },
+                                "image_size": "full",
+                                "width": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                },
+                                "_element_width": "auto",
+                                "_element_custom_width": {
+                                    "unit": "%",
+                                    "size": 25,
+                                    "sizes": []
+                                },
+                                "_flex_align_self": "center",
+                                "jedv_conditions": [
+                                    {
+                                        "_id": "1d55d04"
+                                    }
+                                ],
+                                "width_mobile": {
+                                    "unit": "%",
+                                    "size": 100,
+                                    "sizes": []
+                                },
+                                "_element_width_mobile": "initial",
+                                "_element_custom_width_mobile": {
+                                    "unit": "%",
+                                    "size": 55,
+                                    "sizes": []
+                                },
+                                "link_to": "custom",
+                                "link": {
+                                    "url": "https://bviral.co.il/kpi/kpiab/",
+                                    "is_external": "",
+                                    "nofollow": "",
+                                    "custom_attributes": ""
+                                }
+                            },
+                            "elements": [],
+                            "widgetType": "image"
+                        }
+                    ],
+                    "isInner": true
+                }
+            ],
+            "isInner": false
+        },
+        {
+            "id": "e11e5eb",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "column",
+                "content_width": "full",
+                "padding": {
+                    "unit": "%",
+                    "top": "5",
+                    "right": "10",
+                    "bottom": "4",
+                    "left": "010",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "%",
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": "",
+                    "isLinked": true
+                },
+                "padding_mobile": {
+                    "unit": "%",
+                    "top": "11",
+                    "right": "5",
+                    "bottom": "12",
+                    "left": "5",
+                    "isLinked": false
+                },
+                "jedv_conditions": [
+                    {
+                        "_id": "702653a"
+                    }
+                ],
+                "overflow": "hidden"
+            },
+            "elements": [
+                {
+                    "id": "d012a82",
+                    "elType": "widget",
+                    "settings": {
+                        "_animation": "fadeInUp",
+                        "editor": "<p>מבחן התאמה וקבלה</p>",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Heebo",
+                        "typography_font_size": {
+                            "unit": "vw",
+                            "size": 3.79999999999999982236431605997495353221893310546875,
+                            "sizes": []
+                        },
+                        "typography_font_weight": "900",
+                        "_margin": {
+                            "unit": "%",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "-2",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "align": "center",
+                        "typography_font_size_mobile": {
+                            "unit": "px",
+                            "size": 34,
+                            "sizes": []
+                        },
+                        "typography_line_height_mobile": {
+                            "unit": "em",
+                            "size": 1.1999999999999999555910790149937383830547332763671875,
+                            "sizes": []
+                        },
+                        "_margin_mobile": {
+                            "unit": "%",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "-8",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "_animation_mobile": "none",
+                        "dce_tooltip_content": "I'm a tooltip",
+                        "typography_font_size_tablet": {
+                            "unit": "vw",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "jedv_conditions": [
+                            {
+                                "_id": "ce0185c"
+                            }
+                        ],
+                        "content_width": "full",
+                        "typography_line_height": {
+                            "unit": "em",
+                            "size": 1.100000000000000088817841970012523233890533447265625,
+                            "sizes": []
+                        },
+                        "_padding_mobile": {
+                            "unit": "%",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "_margin_tablet": {
+                            "unit": "%",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "__globals__": {
+                            "text_color": "globals/colors?id=43441bf"
+                        }
+                    },
+                    "elements": [],
+                    "widgetType": "text-editor"
+                },
+                {
+                    "id": "5b66b8a",
+                    "elType": "widget",
+                    "settings": {
+                        "_animation": "fadeInUp",
+                        "editor": "<p><b>ללימודי ניהול שיווק במכללת KPI</b></p>",
+                        "text_color": "#1E1C1C",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Heebo",
+                        "typography_font_size": {
+                            "unit": "vw",
+                            "size": 2.899999999999999911182158029987476766109466552734375,
+                            "sizes": []
+                        },
+                        "typography_font_weight": "600",
+                        "_margin": {
+                            "unit": "%",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "-1",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "align": "center",
+                        "typography_font_size_mobile": {
+                            "unit": "px",
+                            "size": 23,
+                            "sizes": []
+                        },
+                        "typography_line_height_mobile": {
+                            "unit": "em",
+                            "size": 1.1999999999999999555910790149937383830547332763671875,
+                            "sizes": []
+                        },
+                        "_margin_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "-23",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "_animation_mobile": "none",
+                        "dce_tooltip_content": "I'm a tooltip",
+                        "typography_font_size_tablet": {
+                            "unit": "vw",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "jedv_conditions": [
+                            {
+                                "_id": "ce0185c"
+                            }
+                        ],
+                        "content_width": "full",
+                        "typography_line_height": {
+                            "unit": "em",
+                            "size": 1.100000000000000088817841970012523233890533447265625,
+                            "sizes": []
+                        },
+                        "_padding_mobile": {
+                            "unit": "%",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "_margin_tablet": {
+                            "unit": "%",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        }
+                    },
+                    "elements": [],
+                    "widgetType": "text-editor"
+                },
+                {
+                    "id": "dfeec62",
+                    "elType": "widget",
+                    "settings": {
+                        "_animation": "fadeInUp",
+                        "editor": "<p>המבחן נועד לבדוק את אופן החשיבה שלכם ואת הגישה שלכם לתחומים להם מנהלי שיווק נדרשים. חשבו על השאלות בסבלנות ושלחו אלינו את תשובותיכם. <br /><strong>בשלב הבא, יועץ לימודים יתקשר לתאם עבורכם ריאיון קבלה.</strong></p>",
+                        "text_color": "#1E1C1C",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Heebo",
+                        "typography_font_size": {
+                            "unit": "vw",
+                            "size": 1.399999999999999911182158029987476766109466552734375,
+                            "sizes": []
+                        },
+                        "typography_font_weight": "400",
+                        "_margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "align": "center",
+                        "typography_font_size_mobile": {
+                            "unit": "px",
+                            "size": 17,
+                            "sizes": []
+                        },
+                        "typography_line_height_mobile": {
+                            "unit": "em",
+                            "size": 1.399999999999999911182158029987476766109466552734375,
+                            "sizes": []
+                        },
+                        "_margin_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "_animation_mobile": "none",
+                        "dce_tooltip_content": "I'm a tooltip",
+                        "typography_font_size_tablet": {
+                            "unit": "vw",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "jedv_conditions": [
+                            {
+                                "_id": "ce0185c"
+                            }
+                        ],
+                        "content_width": "full",
+                        "typography_line_height": {
+                            "unit": "em",
+                            "size": 1.6999999999999999555910790149937383830547332763671875,
+                            "sizes": []
+                        },
+                        "_padding_mobile": {
+                            "unit": "%",
+                            "top": "0",
+                            "right": "4",
+                            "bottom": "0",
+                            "left": "5",
+                            "isLinked": false
+                        },
+                        "_padding": {
+                            "unit": "%",
+                            "top": "0",
+                            "right": "15",
+                            "bottom": "0",
+                            "left": "15",
+                            "isLinked": false
+                        },
+                        "_padding_tablet": {
+                            "unit": "%",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        }
+                    },
+                    "elements": [],
+                    "widgetType": "text-editor"
+                },
+                {
+                    "id": "a1667d2",
+                    "elType": "container",
+                    "settings": {
+                        "content_width": "full",
+                        "background_color": "#FFFFFF",
+                        "border_radius": {
+                            "unit": "px",
+                            "top": "14",
+                            "right": "14",
+                            "bottom": "14",
+                            "left": "14",
+                            "isLinked": true
+                        },
+                        "padding": {
+                            "unit": "%",
+                            "top": "5",
+                            "right": "10",
+                            "bottom": "5",
+                            "left": "10",
+                            "isLinked": false
+                        },
+                        "padding_tablet": {
+                            "unit": "%",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "padding_mobile": {
+                            "unit": "em",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "jedv_conditions": [
+                            {
+                                "_id": "632c05b"
+                            }
+                        ]
+                    },
+                    "elements": [
+                        {
+                            "id": "761bbd2",
+                            "elType": "widget",
+                            "settings": {
+                                "form_name": "טופס מבחן התאמה",
+                                "form_fields": [
+                                    {
+                                        "field_type": "step",
+                                        "_id": "d8e9232",
+                                        "field_label": "שלב חלק 1",
+                                        "custom_id": "part1"
+                                    },
+                                    {
+                                        "_id": "2647144",
+                                        "field_type": "html",
+                                        "field_label": "חלק 1",
+                                        "field_html": "<span style=\"color: #f05c6e;\">חלק 1: \n</span> מיומנויות טכניות\n<br>",
+                                        "custom_id": "field_2647144"
+                                    },
+                                    {
+                                        "_id": "e1b7573",
+                                        "field_type": "radio",
+                                        "field_label": "מהו קובץ Cookie וכיצד הוא משמש בשיווק דיגיטלי?",
+                                        "required": "true",
+                                        "field_options": "א. קובץ שמכיל וירוסים מזיקים.\nב. קובץ שנשמר במחשב המשתמש למעקב אחר העדפות והרגלי גלישה.\nג. פורמט קובץ המשמש לעיצוב תמונות באתרי אינטרנט.\nד. כלי למדידת זמן טעינת אתרים.",
+                                        "custom_id": "q1"
+                                    },
+                                    {
+                                        "field_type": "radio",
+                                        "field_label": "מהו HTML?",
+                                        "required": "true",
+                                        "field_options": "א. שפת תכנות לפיתוח אפליקציות.\nב. שפת סימון ליצירת דפי אינטרנט.\nג. כלי לניתוח תנועת משתמשים באתרים.\nד. פלטפורמה לניהול קמפיינים דיגיטליים.",
+                                        "custom_id": "q2",
+                                        "_id": "7903410"
+                                    },
+                                    {
+                                        "field_type": "radio",
+                                        "field_label": "איזה כלי משמש למדידת ביצועים של קמפיינים בגוגל?",
+                                        "required": "true",
+                                        "field_options": "א. Google Analytics\nב. Google Drive\nג. Google Ads\nד. Google Sheets",
+                                        "custom_id": "q3",
+                                        "_id": "59479f4"
+                                    },
+                                    {
+                                        "_id": "746d384",
+                                        "field_type": "step",
+                                        "field_label": "שלב חלק 2",
+                                        "custom_id": "part2"
+                                    },
+                                    {
+                                        "field_type": "html",
+                                        "field_label": "חלק 2",
+                                        "field_html": "<span style=\"color: #f05c6e;\">חלק 2: \n</span> מיומנויות אנליטיות\n<br>",
+                                        "custom_id": "field_1676ec2",
+                                        "_id": "1676ec2"
+                                    },
+                                    {
+                                        "field_type": "radio",
+                                        "field_label": "דוח מכירות מראה עלייה במספר הלקוחות החדשים, אך ירידה ברווח הכולל. מה תעשו כדי לנתח את המצב?",
+                                        "required": "true",
+                                        "field_options": "א. תבדקו את עלויות הפרסום וההשקעות שהובילו לעלייה בלקוחות החדשים.\nב. תעצרו את כל הקמפיינים עד שתבינו את הסיבה.\nג. תתמקדו בנתונים של הלקוחות הקיימים בלבד.\nד. תחליטו להעלות מחירים באופן מיידי.",
+                                        "custom_id": "q4",
+                                        "_id": "5ffaf02"
+                                    },
+                                    {
+                                        "field_type": "radio",
+                                        "field_label": "נתוני אתר מראים ירידה בכניסות לאתר מעמוד חדש. מה תהיה הפעולה הבאה שלכם?",
+                                        "required": "true",
+                                        "field_options": "א. תבצעו בדיקות A/B כדי לשפר את הביצועים של העמוד.\nב. תחליפו את העמוד החדש בעמוד הישן.\nג. תוסיפו עוד מודעות כדי להגדיל את התנועה.\nד. תתמקדו בנתונים מעמודים אחרים ותתעלמו מהבעיה.",
+                                        "custom_id": "q5",
+                                        "_id": "c50c591"
+                                    },
+                                    {
+                                        "field_type": "radio",
+                                        "field_label": "ניתוח נתונים מראה שאחת הקבוצות הדמוגרפיות מגיבה פחות טוב לקמפיין שיווקי. מה תעשו?",
+                                        "required": "true",
+                                        "field_options": "א. תיצרו גרסה מותאמת של הקמפיין עבור אותה קבוצה.\nב. תפסיקו את הקמפיין ותתחילו אחד חדש.\nג. תתמקדו בקבוצות המגיבות טוב ותגדילו את התקציב עבורן.\nד. תחקרו למה הקבוצה הזו מגיבה פחות ותנסו לזהות מגמות.",
+                                        "custom_id": "q6",
+                                        "_id": "3d9cdd4"
+                                    },
+                                    {
+                                        "field_type": "radio",
+                                        "field_label": "במהלך בדיקת תהליך רכישה באתר, אתם מגלים שהלקוחות נוטשים בעמוד התשלום. מה תעשו?",
+                                        "required": "true",
+                                        "field_options": "א. תבדקו אם יש בעיות טכניות בעמוד התשלום.\nב. תיצרו מבצע מיוחד שיעודד את הלקוחות להשלים את הרכישה.\nג. תציעו תמיכה ללקוחות בשעות הפעילות בלבד.\nד. תנתחו את התנהגות הלקוחות לאורך כל תהליך הרכישה.",
+                                        "custom_id": "q7",
+                                        "_id": "47a47f7"
+                                    },
+                                    {
+                                        "field_type": "step",
+                                        "field_label": "שלב חלק 3",
+                                        "custom_id": "part3",
+                                        "_id": "73c32c0"
+                                    },
+                                    {
+                                        "field_type": "html",
+                                        "field_label": "חלק 3",
+                                        "field_html": "<span style=\"color: #f05c6e;\">חלק 3: \n</span> מיומנויות ניהול\n<br>",
+                                        "custom_id": "field_897aa3f",
+                                        "_id": "897aa3f"
+                                    },
+                                    {
+                                        "field_type": "radio",
+                                        "field_label": "הצוות שלכם מדווח על עומס עבודה שגורם לעיכוב בפרויקט. כיצד תתמודדו עם המצב?",
+                                        "required": "true",
+                                        "field_options": "א. תגדילו את שעות העבודה של הצוות.\nב. תחלקו מחדש את המשימות או תשכרו עובדים נוספים באופן זמני.\nג. תבקשו מהלקוח לדחות את מועד הסיום.\nד. תתעלמו מהתלונות ותדרשו עמידה בזמנים.",
+                                        "custom_id": "q8",
+                                        "_id": "c73c5f4"
+                                    },
+                                    {
+                                        "field_type": "radio",
+                                        "field_label": "שניים מחברי הצוות שלכם מצויים במחלוקת שמשפיעה על איכות העבודה. מה תעשו?",
+                                        "required": "true",
+                                        "field_options": "א. תקיימו פגישה אישית עם כל אחד ותנסו להבין את הבעיה.\nב. תציעו סדנה קבוצתית לפתרון בעיות.\nג. תחליפו את אחד מחברי הצוות.\nד. תתנו להם לעבוד על פרויקטים שונים כדי למנוע התנגשות.",
+                                        "custom_id": "q9",
+                                        "_id": "41835c1"
+                                    },
+                                    {
+                                        "field_type": "radio",
+                                        "field_label": "במהלך פרויקט, הלקוח מבקש שינוי שלא תוכנן מראש ויעלה זמן ומשאבים נוספים. איך תנהגו?",
+                                        "required": "true",
+                                        "field_options": "א. תבצעו את השינוי ללא שאלה.\nב. תבדקו את ההשפעה על הפרויקט ותציעו ללקוח פתרונות אפשריים.\nג. תסבירו ללקוח שלא ניתן לבצע שינויים לאחר תחילת העבודה.\nד. תבצעו את השינוי אבל תדרשו תוספת תקציב.",
+                                        "custom_id": "q10",
+                                        "_id": "f0373ce"
+                                    },
+                                    {
+                                        "field_type": "step",
+                                        "field_label": "שלב חלק 4",
+                                        "custom_id": "part4",
+                                        "_id": "ca90eb6"
+                                    },
+                                    {
+                                        "field_type": "html",
+                                        "field_label": "חלק 4",
+                                        "field_html": "<span style=\"color: #f05c6e;\">חלק 4: \n</span> חשיבה לוגית והסקת מסקנות\n<br>",
+                                        "custom_id": "field_40aaa1e",
+                                        "_id": "40aaa1e"
+                                    },
+                                    {
+                                        "field_type": "radio",
+                                        "field_label": "חברה מגלה שאחוזי שביעות הרצון של הלקוחות ירדו למרות השקעה בשיפור איכות המוצרים. מה המסקנה האפשרית?",
+                                        "required": "true",
+                                        "field_options": "א. הלקוחות אינם מודעים לשיפורים.\nב. השירות ללקוחות זקוק לשיפור.\nג. המתחרים השיקו מוצרים טובים יותר.\nד. הלקוחות מעדיפים מחירים נמוכים על איכות.",
+                                        "custom_id": "q11",
+                                        "_id": "0598b9c"
+                                    },
+                                    {
+                                        "field_type": "radio",
+                                        "field_label": "חברה מדווחת על עלייה במכירות אך ירידה ברווחים. מה עשוי להסביר את הנתונים?",
+                                        "required": "true",
+                                        "field_options": "א. העלאת מחירי המוצרים ללא הצדקה.\nב. הוצאות ייצור ושיווק עלו באופן משמעותי.\nג. המוצרים נמכרים לשווקים לא רלוונטיים.\nד. הלקוחות מקבלים הנחות גבוהות יותר.",
+                                        "custom_id": "q12",
+                                        "_id": "dd5872e"
+                                    },
+                                    {
+                                        "field_type": "radio",
+                                        "field_label": "נתונים מראים ירידה חדה במעורבות לקוחות בקמפיין חברתי במדיה, למרות עלייה במספר העוקבים. מה המסקנה ההגיונית?",
+                                        "required": "true",
+                                        "field_options": "א. התוכן של הקמפיין אינו רלוונטי לקהל החדש.\nב. המדיה החברתית פחות אפקטיבית בשיווק.\nג. העוקבים החדשים אינם קהל יעד אמיתי.\nד. הקהל מתעניין במותגים מתחרים.",
+                                        "custom_id": "q13",
+                                        "_id": "4cce032"
+                                    },
+                                    {
+                                        "field_type": "radio",
+                                        "field_label": "סקר לקוחות מראה ש-70% מהלקוחות מעדיפים משלוח חינם על פני הנחות. כיצד יש לפרש זאת?",
+                                        "required": "true",
+                                        "field_options": "א. הלקוחות רגישים למחירי משלוח גבוהים.\nב. הנחות אינן משפיעות על החלטות קנייה.\nג. הלקוחות מעדיפים מוצרים יקרים עם משלוח חינם.\nד. משלוח חינם נתפס כערך מוסף גבוה יותר.",
+                                        "custom_id": "field_9e937e1",
+                                        "_id": "9e937e1"
+                                    },
+                                    {
+                                        "field_type": "html",
+                                        "field_label": "חלק פרטים אישיים",
+                                        "field_html": "<span style=\"color: #f05c6e;\">סיימתם?\n</span> בדקו שוב את תשובותיכם, וודאו שהן תקינות, ושלחו לנו (:\n<br>",
+                                        "custom_id": "field_65ac176",
+                                        "_id": "65ac176"
+                                    },
+                                    {
+                                        "custom_id": "name",
+                                        "field_label": "שם מלא",
+                                        "placeholder": "שם מלא",
+                                        "width": "30",
+                                        "_id": "6e65331",
+                                        "dce_form_stripe_item_value": "10.99",
+                                        "dce_form_paypal_item_name": "no name",
+                                        "dce_form_paypal_item_value": "0.1",
+                                        "dce_form_paypal_message_approved": "Your PayPal order has been approved. Please submit the form to complete this payment.",
+                                        "dce_form_stripe_currency": "USD",
+                                        "dce_counter_step": "1",
+                                        "required": "true"
+                                    },
+                                    {
+                                        "custom_id": "phone",
+                                        "field_type": "tel",
+                                        "required": "true",
+                                        "field_label": "טלפון",
+                                        "placeholder": "טלפון",
+                                        "width": "30",
+                                        "_id": "188bb81",
+                                        "dce_form_stripe_item_value": "10.99",
+                                        "dce_form_paypal_item_name": "no name",
+                                        "dce_form_paypal_item_value": "0.1",
+                                        "dce_form_paypal_message_approved": "Your PayPal order has been approved. Please submit the form to complete this payment.",
+                                        "dce_form_stripe_currency": "USD",
+                                        "dce_counter_step": "1"
+                                    },
+                                    {
+                                        "custom_id": "email",
+                                        "field_type": "email",
+                                        "field_label": "מייל",
+                                        "placeholder": "מייל",
+                                        "width": "30",
+                                        "_id": "d7f9ef4",
+                                        "dce_form_stripe_item_value": "10.99",
+                                        "dce_form_paypal_item_name": "no name",
+                                        "dce_form_paypal_item_value": "0.1",
+                                        "dce_form_paypal_message_approved": "Your PayPal order has been approved. Please submit the form to complete this payment.",
+                                        "dce_form_stripe_currency": "USD",
+                                        "dce_counter_step": "1",
+                                        "required": "true"
+                                    },
+                                    {
+                                        "_id": "636da6c",
+                                        "field_type": "hidden",
+                                        "field_label": "page_title",
+                                        "dce_form_stripe_currency": "USD",
+                                        "dce_form_stripe_item_value": "10.99",
+                                        "dce_form_paypal_item_name": "no name",
+                                        "dce_form_paypal_item_value": "0.1",
+                                        "dce_form_paypal_message_approved": "Your PayPal order has been approved. Please submit the form to complete this payment.",
+                                        "dce_counter_step": "1",
+                                        "custom_id": "page_title",
+                                        "__dynamic__": {
+                                            "field_value": "[elementor-tag id=\"ec7f422\" name=\"post-title\" settings=\"%7B%7D\"]"
+                                        }
+                                    }
+                                ],
+                                "button_align_mobile": "end",
+                                "step_next_label": "הבא",
+                                "step_previous_label": "חזור",
+                                "button_text": "שליחה",
+                                "email_to": "revital@bviral.co.il",
+                                "email_subject": "מתעניין חדש לקורס של ויראלי",
+                                "email_content": "[all-fields]",
+                                "email_from": "email@landing.bviral.co.il",
+                                "email_from_name": "landing",
+                                "email_to_2": "mailyossef@gmail.com",
+                                "email_subject_2": "New message from \"landing\"",
+                                "email_content_2": "[all-fields]",
+                                "email_from_2": "email@landing.bviral.co.il",
+                                "email_from_name_2": "landing",
+                                "email_reply_to_2": "mailyossef@gmail.com",
+                                "mailchimp_fields_map": [],
+                                "drip_fields_map": [],
+                                "activecampaign_fields_map": [],
+                                "getresponse_fields_map": [],
+                                "convertkit_fields_map": [],
+                                "mailerlite_fields_map": [],
+                                "dce_form_save_type_post_title": "Form Entry by [field id=\"name\"]",
+                                "dce_form_save_type_post_content": "[field id=\"message\"]",
+                                "dce_form_save_type_user_email": "[field id=\"email\"]",
+                                "dce_form_save_type_user_pass": "[field id=\"user_pass\"]",
+                                "dce_form_save_type_term_name": "Term [field id=\"name\"]",
+                                "dce_form_save_type_term_description": "[field id=\"message\"]",
+                                "dce_form_export_fields": [],
+                                "dce_form_export_headers": [
+                                    {
+                                        "dce_form_export_header_key": "Connection",
+                                        "dce_form_export_header_value": "keep-alive",
+                                        "_id": "d879c42"
+                                    }
+                                ],
+                                "dce_form_pdf_log_path": "elementor/export/log__[date|Ymd].txt",
+                                "dce_form_pdf_name": "[date|U]",
+                                "dce_form_pdf_folder": "elementor/pdf/[date|Y]/[date|m]",
+                                "dce_form_pdf_svg_code_repeater": [],
+                                "dce_form_pdf_title": "Form data by [field id=\"name\"] in [date|Y-m-d H:i:s]",
+                                "dce_form_pdf_content": "[field id=\"message\"]",
+                                "dce_form_redirect_repeater": [],
+                                "dce_form_telegram_repeater": [],
+                                "dce_form_email_repeater": [],
+                                "dce_step_summary_submit_btn_text": "Submit Form",
+                                "success_message": "The form was sent successfully.",
+                                "error_message": "An error occurred.",
+                                "required_field_message": "This field is required.",
+                                "invalid_message": "There's something wrong. The form is invalid.",
+                                "label_color": "#000000",
+                                "field_typography_typography": "custom",
+                                "field_typography_font_family": "Heebo",
+                                "field_typography_font_weight": "400",
+                                "field_description_color": "#B34A53",
+                                "label_description_color": "#EAEAEA",
+                                "field_background_color": "#EBE9E8",
+                                "field_border_color": "#EB5F6C",
+                                "field_border_width": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": true
+                                },
+                                "field_border_radius": {
+                                    "unit": "px",
+                                    "top": "5",
+                                    "right": "5",
+                                    "bottom": "5",
+                                    "left": "5",
+                                    "isLinked": true
+                                },
+                                "button_background_hover_color": "#E69A2B",
+                                "button_border_radius": {
+                                    "unit": "px",
+                                    "top": "33",
+                                    "right": "33",
+                                    "bottom": "33",
+                                    "left": "33",
+                                    "isLinked": true
+                                },
+                                "_margin_mobile": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_padding": {
+                                    "unit": "%",
+                                    "top": "2",
+                                    "right": "2",
+                                    "bottom": "2",
+                                    "left": "2",
+                                    "isLinked": true
+                                },
+                                "_padding_mobile": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "5",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "__globals__": {
+                                    "button_background_color": "",
+                                    "field_text_color": "globals/colors?id=c294f1c",
+                                    "step_active_primary_color": "globals/colors?id=adf9b8f",
+                                    "step_completed_primary_color": "globals/colors?id=adf9b8f"
+                                },
+                                "dce_conditional_validations": [
+                                    {
+                                        "disabled": "yes",
+                                        "error_message": "Your name should be Joe",
+                                        "expression": "name == \"Joe\"",
+                                        "error_field_id": "name",
+                                        "_id": "bb2b2f1"
+                                    }
+                                ],
+                                "dce_tooltip_content": "I'm a tooltip",
+                                "dce_confirm_dialog_title": "Confirm",
+                                "dce_confirm_dialog_confirm_button_text": "Confirm",
+                                "dce_confirm_dialog_cancel_button_text": "Cancel",
+                                "dce_form_favorites": [],
+                                "server_message": "שליחת הטופס נכשלה בגלל שגיאת שרת.",
+                                "field_typography_font_size": {
+                                    "unit": "vw",
+                                    "size": 1.100000000000000088817841970012523233890533447265625,
+                                    "sizes": []
+                                },
+                                "field_typography_font_size_tablet": {
+                                    "unit": "vw",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "field_typography_font_size_mobile": {
+                                    "unit": "px",
+                                    "size": 17,
+                                    "sizes": []
+                                },
+                                "button_typography_typography": "custom",
+                                "button_typography_font_family": "Heebo",
+                                "button_typography_font_size": {
+                                    "unit": "vw",
+                                    "size": 1.100000000000000088817841970012523233890533447265625,
+                                    "sizes": []
+                                },
+                                "button_typography_font_size_tablet": {
+                                    "unit": "vw",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "button_typography_font_size_mobile": {
+                                    "unit": "px",
+                                    "size": 16,
+                                    "sizes": []
+                                },
+                                "button_typography_font_weight": "500",
+                                "jedv_conditions": [
+                                    {
+                                        "_id": "ce1cafb"
+                                    }
+                                ],
+                                "content_width": "full",
+                                "label_typography_typography": "custom",
+                                "label_typography_font_family": "Heebo",
+                                "label_typography_font_size_mobile": {
+                                    "unit": "px",
+                                    "size": 18,
+                                    "sizes": []
+                                },
+                                "label_typography_font_weight": "600",
+                                "input_size": "md",
+                                "button_size": "md",
+                                "submit_actions": [
+                                    "save-to-database",
+                                    "email",
+                                    "redirect",
+                                    "webhook"
+                                ],
+                                "redirect_to": "https://bviral.co.il/kpi/thanks-tryout/?button=1",
+                                "webhooks": "https://hooks.zapier.com/hooks/catch/4455145/2s3lasc/",
+                                "custom_css": "/* input field css */\nselector input::placeholder{\n    opacity: 1;\n}\n\nselector input:focus::placeholder {\n    opacity: 0;\n    transition: all 0.4s;\n}\n\n/* textarea field css */\nselector textarea::placeholder{\n    opacity: 1;\n}\n\nselector textarea:focus::placeholder {\n    opacity: 0;\n    transition: all 0.4s;\n}\n\nselector .elementor-select-wrapper::before {\n    color: #001689!important;\n}\n\nselector textarea {\n    resize: none;\n}\n\nselector input {\n    direction: rtl;\n}\n\n.elementor-field-group-email label, .elementor-field-group-name label, .elementor-field-group-phone label {\n    display: none !important;\n}\n\n\n.e-form__buttons {\n    padding-top: 1.4em;\n}\n\n.elementor-field-type-html.elementor-field-group.elementor-column.elementor-field-group-field_65ac176.elementor-col-100 {\n    margin-top: 0.5em;\n    margin-bottom: 0.4em;\n}\n\n\n/* radio \nselector [type=\"checkbox\"]:checked,\nselector [type=\"checkbox\"]:not(:checked),\nselector [type=\"radio\"]:checked,\nselector [type=\"radio\"]:not(:checked){\n\tposition: absolute;\n\tvisibility: hidden;\n}\n\nselector .elementor-field-option label {\n    border: 1px solid #EF5C6E;\n    border-radius: 100px;\n    background-color: #FFF;\n    display: block;\n    color: #000 !important;\n    padding: 10px 40px;\n    margin: 7px 0;\n    font-size: 18px;\n    transition: 0.2s all;\n    cursor: pointer;\n    position: relative;\n    z-index: 2;\n}\n\nselector .elementor-field-option label:after {\n  width: 0px;\n  height: 0px;\n  content: \"\";\n  border: 0px solid #D1D7DC;\n  background-color: #00173C;\n  background-repeat: no-repeat;\n  background-position: 2px 3px;\n  border-radius: 50%;\n  z-index: 2;\n  position: absolute;\n  right: 15px;\n  top: 50%;\n  transform: translateY(-50%);\n  cursor: pointer;\n  transition: all 200ms ease-in;\n}\n\nselector input:checked ~ label {\n  color: #FFF !important;\n  background-color: #EF5C6E;\n}\n\nselector input:checked ~ label:after {\n  background-color: #EF5C6E;\n  border-color: #000;\n}*/\n\n\n/* Part's */\n.elementor-field-type-step.elementor-column.elementor-field-group-part1.elementor-col-100.e-form__step,\n.elementor-field-type-step.elementor-column.elementor-field-group-part2.elementor-col-100.e-form__step,\n.elementor-field-type-step.elementor-column.elementor-field-group-part3.elementor-col-100.e-form__step,\n.elementor-field-type-step.elementor-column.elementor-field-group-part4.elementor-col-100.e-form__step{\n    background-color: #FFF !important;\n    border-radius: 30px;\n    padding: 2%;\n}\n\n@media only screen and (max-width: 1024px) {\n    .elementor-field-type-step.elementor-column.elementor-field-group-part1.elementor-col-100.e-form__step,\n.elementor-field-type-step.elementor-column.elementor-field-group-part2.elementor-col-100.e-form__step,\n.elementor-field-type-step.elementor-column.elementor-field-group-part3.elementor-col-100.e-form__step,\n.elementor-field-type-step.elementor-column.elementor-field-group-part4.elementor-col-100.e-form__step{\n   \n    padding: 2em 1.1em;\n}\n    \n    \n    \n}\n\n\n\n\n\n\nselector [type=\"radio\"]:checked,\nselector [type=\"radio\"]:not(:checked) {\n    position: absolute;\n    visibility: hidden;\n}\n\nselector .elementor-field-option label {\n    display: block;\n    padding: 0px 30px;\n    margin: 6px 0;\n    transition: 0.2s all;\n    cursor: pointer;\n    position: relative;\n    z-index: 2;\n}\n\nselector .elementor-field-option label:after {\n    width: 18px;\n    height: 18px;\n    content: \"\";\n    border: 1px solid #EBE9E8;\n    background-color: #EBE9E8;\n    background-repeat: no-repeat;\n    border-radius: 35px;\n    background-position: 1px 2px;\n    z-index: 2;\n    position: absolute;\n    right: 0px;\n    top: 50%;\n    transform: translateY(-50%);\n    cursor: pointer;\n    transition: all 200ms ease-in;\n    \n}\n\nselector .elementor-field-type-radio label {\n    margin-top: 1.2%;\n}\n\nselector input[type=\"radio\"]:checked ~ label:after {\n    background-color: #F05C6E;\n    border-color: #fff;\n    border-radius: 35px;\n    border: 3px solid #EBE9E8;\n}\n",
+                                "__dynamic__": [],
+                                "step_type": "number",
+                                "label_spacing": {
+                                    "unit": "em",
+                                    "size": 0.40000000000000002220446049250313080847263336181640625,
+                                    "sizes": []
+                                },
+                                "label_typography_font_size": {
+                                    "unit": "vw",
+                                    "size": 1.3000000000000000444089209850062616169452667236328125,
+                                    "sizes": []
+                                },
+                                "label_typography_font_size_tablet": {
+                                    "unit": "vw",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "html_spacing": {
+                                    "unit": "px",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "html_color": "#000000",
+                                "html_typography_typography": "custom",
+                                "html_typography_font_family": "Heebo",
+                                "html_typography_font_size": {
+                                    "unit": "vw",
+                                    "size": 1.6999999999999999555910790149937383830547332763671875,
+                                    "sizes": []
+                                },
+                                "html_typography_font_size_tablet": {
+                                    "unit": "vw",
+                                    "size": "",
+                                    "sizes": []
+                                },
+                                "html_typography_font_size_mobile": {
+                                    "unit": "px",
+                                    "size": 23,
+                                    "sizes": []
+                                },
+                                "html_typography_font_weight": "900",
+                                "button_content_align": "start",
+                                "_padding_tablet": {
+                                    "unit": "%",
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": "",
+                                    "isLinked": true
+                                },
+                                "_background_color": "#FFFFFF",
+                                "_border_width": {
+                                    "unit": "px",
+                                    "top": "4",
+                                    "right": "4",
+                                    "bottom": "4",
+                                    "left": "4",
+                                    "isLinked": true
+                                },
+                                "_border_color": "#FFFFFF",
+                                "row_gap": {
+                                    "unit": "px",
+                                    "size": 8,
+                                    "sizes": []
+                                },
+                                "field_text_color": "#413C39",
+                                "button_background_color": "#F05C6E",
+                                "button_align": "end",
+                                "label_typography_line_height_mobile": {
+                                    "unit": "em",
+                                    "size": 1.399999999999999911182158029987476766109466552734375,
+                                    "sizes": []
+                                },
+                                "field_typography_line_height_mobile": {
+                                    "unit": "em",
+                                    "size": 1.399999999999999911182158029987476766109466552734375,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "widgetType": "form"
+                        }
+                    ],
+                    "isInner": true
+                }
+            ],
+            "isInner": false
+        }
+    ]
+}

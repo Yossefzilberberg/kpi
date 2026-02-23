@@ -1,0 +1,394 @@
+{
+    "post_id": 14737,
+    "post_title": "עמוד תודה לידים מבחן התאמה",
+    "post_name": "thanks-tryout",
+    "post_type": "page",
+    "post_status": "publish",
+    "elementor_version": "3.25.11",
+    "exported_at": "2026-02-23 18:55:42",
+    "elementor_data": [
+        {
+            "id": "522f49c",
+            "elType": "container",
+            "settings": {
+                "flex_direction": "column",
+                "content_width": "full",
+                "padding": {
+                    "unit": "%",
+                    "top": "0",
+                    "right": "12",
+                    "bottom": "0",
+                    "left": "12",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "%",
+                    "top": "",
+                    "right": "",
+                    "bottom": "",
+                    "left": "",
+                    "isLinked": true
+                },
+                "padding_mobile": {
+                    "unit": "%",
+                    "top": "25",
+                    "right": "5",
+                    "bottom": "7",
+                    "left": "5",
+                    "isLinked": false
+                },
+                "jedv_conditions": [
+                    {
+                        "_id": "702653a"
+                    }
+                ],
+                "overflow": "hidden",
+                "flex_gap_mobile": {
+                    "column": "0",
+                    "row": "0",
+                    "isLinked": false,
+                    "unit": "px",
+                    "size": 0
+                },
+                "min_height": {
+                    "unit": "vh",
+                    "size": 100,
+                    "sizes": []
+                },
+                "min_height_tablet": {
+                    "unit": "vh",
+                    "size": "",
+                    "sizes": []
+                },
+                "min_height_mobile": {
+                    "unit": "vh",
+                    "size": "",
+                    "sizes": []
+                },
+                "flex_justify_content": "center",
+                "flex_align_items": "center"
+            },
+            "elements": [
+                {
+                    "id": "5f31ce2",
+                    "elType": "widget",
+                    "settings": {
+                        "_animation": "fadeInUp",
+                        "editor": "<p><span style=\"font-weight: 400;\"><strong><span style=\"color: #f05c6e;\"><b>קיבלנו את טופס המבחן שלכם</b><br /></span></strong></span></p>",
+                        "text_color": "#1E1C1C",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Heebo",
+                        "typography_font_size": {
+                            "unit": "vw",
+                            "size": 5.5999999999999996447286321199499070644378662109375,
+                            "sizes": []
+                        },
+                        "typography_font_weight": "600",
+                        "_margin": {
+                            "unit": "px",
+                            "top": "-12",
+                            "right": "0",
+                            "bottom": "-1",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "align": "center",
+                        "typography_font_size_mobile": {
+                            "unit": "px",
+                            "size": 41,
+                            "sizes": []
+                        },
+                        "typography_line_height_mobile": {
+                            "unit": "em",
+                            "size": 1.1999999999999999555910790149937383830547332763671875,
+                            "sizes": []
+                        },
+                        "_margin_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "_animation_mobile": "none",
+                        "dce_tooltip_content": "I'm a tooltip",
+                        "typography_font_size_tablet": {
+                            "unit": "vw",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "jedv_conditions": [
+                            {
+                                "_id": "ce0185c"
+                            }
+                        ],
+                        "content_width": "full",
+                        "typography_line_height": {
+                            "unit": "em",
+                            "size": 1,
+                            "sizes": []
+                        }
+                    },
+                    "elements": [],
+                    "widgetType": "text-editor"
+                },
+                {
+                    "id": "caf4d4d",
+                    "elType": "widget",
+                    "settings": {
+                        "content_width": "full",
+                        "editor": "<p>נשמח מאד לראות אתכם בכיתות <strong>הלימוד שלנו!</strong> יועץ לימודים יצור איתכם קשר בהקדם לתיאום ריאיון קבלה במידת הצורך</p>",
+                        "align": "center",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Heebo",
+                        "typography_font_size": {
+                            "unit": "vw",
+                            "size": 1.399999999999999911182158029987476766109466552734375,
+                            "sizes": []
+                        },
+                        "typography_font_size_tablet": {
+                            "unit": "vw",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                            "unit": "px",
+                            "size": 17,
+                            "sizes": []
+                        },
+                        "typography_font_weight": "300",
+                        "_padding": {
+                            "unit": "%",
+                            "top": "0",
+                            "right": "20",
+                            "bottom": "0",
+                            "left": "20",
+                            "isLinked": false
+                        },
+                        "_padding_tablet": {
+                            "unit": "%",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "_padding_mobile": {
+                            "unit": "%",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "_element_custom_width": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        },
+                        "_flex_align_self": "center",
+                        "jedv_conditions": [
+                            {
+                                "_id": "f9e4a34"
+                            }
+                        ],
+                        "__globals__": {
+                            "text_color": "globals/colors?id=c294f1c"
+                        },
+                        "_margin": {
+                            "unit": "%",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "-1",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "_margin_tablet": {
+                            "unit": "%",
+                            "top": "",
+                            "right": "",
+                            "bottom": "",
+                            "left": "",
+                            "isLinked": true
+                        },
+                        "_margin_mobile": {
+                            "unit": "%",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "-3",
+                            "left": "0",
+                            "isLinked": false
+                        }
+                    },
+                    "elements": [],
+                    "widgetType": "text-editor"
+                },
+                {
+                    "id": "0d8e21e",
+                    "elType": "widget",
+                    "settings": {
+                        "content_width": "full",
+                        "text": "חזרה לדף הבית",
+                        "align": "center",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Heebo",
+                        "typography_font_size": {
+                            "unit": "vw",
+                            "size": 1.100000000000000088817841970012523233890533447265625,
+                            "sizes": []
+                        },
+                        "typography_font_size_tablet": {
+                            "unit": "vw",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                            "unit": "px",
+                            "size": 15,
+                            "sizes": []
+                        },
+                        "typography_font_weight": "500",
+                        "border_radius": {
+                            "unit": "px",
+                            "top": "34",
+                            "right": "34",
+                            "bottom": "34",
+                            "left": "34",
+                            "isLinked": true
+                        },
+                        "jedv_conditions": [
+                            {
+                                "_id": "125948c",
+                                "jedv_condition": "equal",
+                                "jedv_value": "1",
+                                "__dynamic__": {
+                                    "jedv_field": "[elementor-tag id=\"ca4e3ec\" name=\"request-arg\" settings=\"%7B%22param_name%22%3A%22button%22%7D\"]"
+                                }
+                            }
+                        ],
+                        "__globals__": {
+                            "background_color": "globals/colors?id=43441bf"
+                        },
+                        "selected_icon": {
+                            "value": "fas fa-chevron-circle-left",
+                            "library": "fa-solid"
+                        },
+                        "hover_animation": "float",
+                        "align_mobile": "center",
+                        "_element_width_mobile": "initial",
+                        "_element_custom_width_mobile": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        },
+                        "link": {
+                            "url": "",
+                            "is_external": "",
+                            "nofollow": "",
+                            "custom_attributes": ""
+                        },
+                        "_margin_mobile": {
+                            "unit": "px",
+                            "top": "5",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "__dynamic__": {
+                            "link": "[elementor-tag id=\"c74c19c\" name=\"site-url\" settings=\"%7B%7D\"]"
+                        },
+                        "jedv_enabled": "yes",
+                        "jedv_type": "hide",
+                        "_title": "חזרה לדף הבית"
+                    },
+                    "elements": [],
+                    "widgetType": "button"
+                },
+                {
+                    "id": "b6d3c5e",
+                    "elType": "widget",
+                    "settings": {
+                        "content_width": "full",
+                        "text": "חזרה לדף הבית",
+                        "align": "center",
+                        "typography_typography": "custom",
+                        "typography_font_family": "Heebo",
+                        "typography_font_size": {
+                            "unit": "vw",
+                            "size": 1.100000000000000088817841970012523233890533447265625,
+                            "sizes": []
+                        },
+                        "typography_font_size_tablet": {
+                            "unit": "vw",
+                            "size": "",
+                            "sizes": []
+                        },
+                        "typography_font_size_mobile": {
+                            "unit": "px",
+                            "size": 15,
+                            "sizes": []
+                        },
+                        "typography_font_weight": "500",
+                        "border_radius": {
+                            "unit": "px",
+                            "top": "34",
+                            "right": "34",
+                            "bottom": "34",
+                            "left": "34",
+                            "isLinked": true
+                        },
+                        "jedv_conditions": [
+                            {
+                                "_id": "125948c",
+                                "jedv_condition": "equal",
+                                "jedv_value": "1",
+                                "__dynamic__": {
+                                    "jedv_field": "[elementor-tag id=\"ca4e3ec\" name=\"request-arg\" settings=\"%7B%22param_name%22%3A%22button%22%7D\"]"
+                                }
+                            }
+                        ],
+                        "__globals__": {
+                            "background_color": "globals/colors?id=43441bf"
+                        },
+                        "selected_icon": {
+                            "value": "fas fa-chevron-circle-left",
+                            "library": "fa-solid"
+                        },
+                        "hover_animation": "float",
+                        "align_mobile": "center",
+                        "_element_width_mobile": "initial",
+                        "_element_custom_width_mobile": {
+                            "unit": "%",
+                            "size": 100,
+                            "sizes": []
+                        },
+                        "link": {
+                            "url": "https://bviral.co.il/kpi/kpiab/",
+                            "is_external": "",
+                            "nofollow": "",
+                            "custom_attributes": ""
+                        },
+                        "_margin_mobile": {
+                            "unit": "px",
+                            "top": "5",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "__dynamic__": {
+                            "link": "[elementor-tag id=\"dfa1be0\" name=\"internal-url\" settings=\"%7B%22type%22%3A%22post%22%2C%22post_id%22%3A%2214195%22%7D\"]"
+                        },
+                        "jedv_enabled": "yes",
+                        "_title": "חזרה למיני סייט"
+                    },
+                    "elements": [],
+                    "widgetType": "button"
+                }
+            ],
+            "isInner": false
+        }
+    ]
+}
