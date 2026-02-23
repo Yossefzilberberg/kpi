@@ -7,50 +7,40 @@ jobs:
   export:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Run export on server
-        uses: appleboy/ssh-action@v1
-        with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USER }}
-          port: ${{ secrets.SSH_PORT }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          script: |
-            cd ${{ secrets.THEME_PATH }}
-            git fetch --all
-            git reset --hard origin/main
-            bash scripts/export.sh
-
-      - name: Pull exported files from server
-        uses: appleboy/scp-action@v0.1.7
-        with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USER }}
-          port: ${{ secrets.SSH_PORT }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          source: ${{ secrets.THEME_PATH }}/elementor-data/*.json
-          target: ./elementor-data/
-          strip_components: 10
-          rm: false
-
-      - name: Commit and push exported data
+      - name: Trigger export webhook
+        env:
+          WEBHOOK_SECRET: ${{ secrets.WEBHOOK_SECRET }}
+          WEBHOOK_EXPORT_URL: ${{ secrets.WEBHOOK_EXPORT_URL }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          PAYLOAD='{"action":"export"}'
+          SIGNATURE="sha256=$(echo -n "$PAYLOAD" | openssl dgst -sha256 -hmac "$WEBHOOK_SECRET" | awk '{print $2}')"
 
-          # Copy files from the nested path to the right location
-          if [ -d "home" ]; then
-            find home -name "*.json" -exec cp {} elementor-data/ \;
-            rm -rf home
+          RESPONSE=$(curl -s -o /tmp/export_response.txt -w "%{http_code}" \
+            -X POST \
+            -H "Content-Type: application/json" \
+            -H "X-Hub-Signature-256: $SIGNATURE" \
+            -d "$PAYLOAD" \
+            "$WEBHOOK_EXPORT_URL")
+
+          echo "Export webhook response code: $RESPONSE"
+          cat /tmp/export_response.txt
+
+          if [ "$RESPONSE" != "200" ]; then
+            echo "ERROR: Export webhook returned $RESPONSE"
+            exit 1
           fi
 
-          git add elementor-data/
+          echo "Export triggered. Files will be committed to repo by the server."
 
-          if git diff --cached --quiet; then
-            echo "No Elementor data changes to commit."
-          else
-            git commit -m "Export Elementor data from server"
-            git push
-          fi
+      - name: Wait for server push
+        run: sleep 15
+
+      - name: Pull exported data
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Verify export
+        run: |
+          echo "Files in elementor-data/:"
+          ls -la elementor-data/ || echo "No files yet."

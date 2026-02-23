@@ -9,40 +9,27 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 2
-
-      - name: Check for Elementor data changes
-        id: changes
+      - name: Trigger deploy webhook
+        env:
+          WEBHOOK_SECRET: ${{ secrets.WEBHOOK_SECRET }}
+          WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
         run: |
-          if git diff --name-only HEAD~1 HEAD | grep -q '^elementor-data/.*\.json$'; then
-            echo "elementor_changed=true" >> $GITHUB_OUTPUT
-          else
-            echo "elementor_changed=false" >> $GITHUB_OUTPUT
+          PAYLOAD='{"ref":"refs/heads/main"}'
+          SIGNATURE="sha256=$(echo -n "$PAYLOAD" | openssl dgst -sha256 -hmac "$WEBHOOK_SECRET" | awk '{print $2}')"
+
+          RESPONSE=$(curl -s -o /tmp/webhook_response.txt -w "%{http_code}" \
+            -X POST \
+            -H "Content-Type: application/json" \
+            -H "X-Hub-Signature-256: $SIGNATURE" \
+            -d "$PAYLOAD" \
+            "$WEBHOOK_URL")
+
+          echo "Webhook response code: $RESPONSE"
+          cat /tmp/webhook_response.txt
+
+          if [ "$RESPONSE" != "200" ]; then
+            echo "ERROR: Webhook returned $RESPONSE"
+            exit 1
           fi
 
-      - name: Deploy theme via SSH
-        uses: appleboy/ssh-action@v1
-        with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USER }}
-          port: ${{ secrets.SSH_PORT }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          script: |
-            cd ${{ secrets.THEME_PATH }}
-            git fetch --all
-            git reset --hard origin/main
-
-      - name: Import Elementor data
-        if: steps.changes.outputs.elementor_changed == 'true'
-        uses: appleboy/ssh-action@v1
-        with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USER }}
-          port: ${{ secrets.SSH_PORT }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          script: |
-            cd ${{ secrets.THEME_PATH }}
-            bash scripts/import.sh
+          echo "Deploy triggered successfully."
