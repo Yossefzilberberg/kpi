@@ -8,7 +8,7 @@
 set -e
 
 WP_ROOT="/home/bviral/public_html/kpi"
-THEME_PATH="$WP_ROOT/wp-content/themes/hello-elementor-child"
+THEME_PATH="$WP_ROOT/wp-content/themes/hello-theme-child-master"
 
 echo "================================"
 echo "  Webhook Setup"

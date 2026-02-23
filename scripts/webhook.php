@@ -7,7 +7,7 @@
 
 // --- Configuration ---
 $secret       = trim( file_get_contents( __DIR__ . '/webhook-secret.txt' ) );
-$theme_path   = __DIR__ . '/wp-content/themes/hello-elementor-child';
+$theme_path   = __DIR__ . '/wp-content/themes/hello-theme-child-master';
 $log_file     = __DIR__ . '/webhook.log';
 $wp_path      = __DIR__;
 
