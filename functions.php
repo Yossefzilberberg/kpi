@@ -111,7 +111,7 @@ add_filter( 'login_errors', 'no_wordpress_errors' );
 
 // prevents hackers from getting your username by using ?author=1 at the end of your domain url 
 // ==============================================================================
-add_action('template_redirect', computec_template_redirect);
+add_action('template_redirect', 'computec_template_redirect');
 function computec_template_redirect() {
     if (is_author()) {
         wp_redirect( home_url() ); exit;
