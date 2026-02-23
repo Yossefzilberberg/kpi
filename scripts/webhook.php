@@ -45,60 +45,16 @@ if ( $ref !== 'refs/heads/main' ) {
 	exit( 0 );
 }
 
-webhook_log( 'DEPLOY: Push to main detected. Starting deploy...' );
+webhook_log( 'DEPLOY: Push to main detected. Launching background deploy...' );
 
-// --- Deploy ---
-$output = [];
-$exit   = 0;
+// --- Launch deploy as background process ---
+$deploy_script = "cd " . escapeshellarg( $theme_path )
+	. " && git fetch --all"
+	. " && git reset --hard origin/main"
+	. " && bash scripts/import.sh";
+exec( "nohup bash -c " . escapeshellarg( $deploy_script ) . " >> " . escapeshellarg( $log_file ) . " 2>&1 &" );
 
-// Pull latest code.
-exec( "cd " . escapeshellarg( $theme_path ) . " && git fetch --all 2>&1 && git reset --hard origin/main 2>&1", $output, $exit );
-webhook_log( "GIT PULL (exit {$exit}): " . implode( "\n", $output ) );
-
-if ( $exit !== 0 ) {
-	http_response_code( 500 );
-	webhook_log( 'ERROR: Git pull failed.' );
-	die( 'Deploy failed at git pull.' );
-}
-
-// Check if elementor-data JSON files changed.
-$import_output = [];
-$import_exit   = 0;
-$json_files    = glob( $theme_path . '/elementor-data/*.json' );
-
-if ( ! empty( $json_files ) ) {
-	webhook_log( 'IMPORT: Found ' . count( $json_files ) . ' JSON file(s). Running import...' );
-
-	// Check if WP-CLI is available.
-	$wp_cli = trim( shell_exec( 'which wp 2>/dev/null' ) );
-	if ( empty( $wp_cli ) ) {
-		// Try common paths.
-		$common_paths = [ '/usr/local/bin/wp', '/usr/bin/wp', '/home/bviral/bin/wp' ];
-		foreach ( $common_paths as $path ) {
-			if ( file_exists( $path ) ) {
-				$wp_cli = $path;
-				break;
-			}
-		}
-	}
-
-	if ( ! empty( $wp_cli ) ) {
-		exec(
-			escapeshellarg( $wp_cli ) . " eval-file " . escapeshellarg( $theme_path . "/scripts/import-elementor.php" ) . " --path=" . escapeshellarg( $wp_path ) . " --allow-root 2>&1",
-			$import_output,
-			$import_exit
-		);
-		webhook_log( "IMPORT (exit {$import_exit}): " . implode( "\n", $import_output ) );
-	} else {
-		webhook_log( 'WARN: WP-CLI not found. Skipping Elementor import.' );
-	}
-}
-
-webhook_log( 'DEPLOY: Complete.' );
-
+// --- Respond immediately ---
 http_response_code( 200 );
-echo "Deploy successful.\n";
-echo implode( "\n", $output ) . "\n";
-if ( ! empty( $import_output ) ) {
-	echo implode( "\n", $import_output ) . "\n";
-}
+echo "Deploy launched in background.\n";
+webhook_log( 'DEPLOY: Background job launched.' );

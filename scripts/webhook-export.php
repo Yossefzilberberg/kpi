@@ -37,68 +37,19 @@ if ( ! hash_equals( $expected, $signature ) ) {
 
 webhook_log( 'EXPORT: Request received. Launching background job...' );
 
-// --- Respond immediately, run export in background ---
+// --- Launch export as a completely separate background process ---
+$script = escapeshellarg( $theme_path . '/scripts/export.sh' );
+$cmd    = "nohup bash {$script} >> " . escapeshellarg( $log_file ) . " 2>&1 &";
+exec( $cmd );
+
+// --- Also run git commit+push after export finishes ---
+$git_script = "sleep 10 && cd " . escapeshellarg( $theme_path )
+	. " && git add elementor-data/"
+	. " && (git diff --cached --quiet || git -c user.name='server-bot' -c user.email='bot@server' commit -m 'Export Elementor data from server')"
+	. " && git push origin main >> " . escapeshellarg( $log_file ) . " 2>&1";
+exec( "nohup bash -c " . escapeshellarg( $git_script ) . " >> " . escapeshellarg( $log_file ) . " 2>&1 &" );
+
+// --- Respond immediately ---
 http_response_code( 200 );
-echo "Export started in background. Check webhook.log on server for progress.\n";
-
-// Flush output so curl gets the response immediately.
-if ( function_exists( 'fastcgi_finish_request' ) ) {
-	fastcgi_finish_request();
-} else {
-	ob_end_flush();
-	flush();
-	if ( function_exists( 'litespeed_finish_request' ) ) {
-		litespeed_finish_request();
-	}
-}
-
-// --- Now run the export in background ---
-
-// Find WP-CLI.
-$wp_cli = trim( shell_exec( 'which wp 2>/dev/null' ) );
-if ( empty( $wp_cli ) ) {
-	$common_paths = [ '/usr/local/bin/wp', '/usr/bin/wp', '/home/bviral/bin/wp' ];
-	foreach ( $common_paths as $path ) {
-		if ( file_exists( $path ) ) {
-			$wp_cli = $path;
-			break;
-		}
-	}
-}
-
-if ( empty( $wp_cli ) ) {
-	webhook_log( 'EXPORT ERROR: WP-CLI not found.' );
-	exit( 1 );
-}
-
-// Run export.
-$output = [];
-$exit   = 0;
-
-exec(
-	escapeshellarg( $wp_cli ) . " eval-file " . escapeshellarg( $theme_path . "/scripts/export-elementor.php" ) . " --path=" . escapeshellarg( $wp_path ) . " --allow-root 2>&1",
-	$output,
-	$exit
-);
-
-webhook_log( "EXPORT (exit {$exit}): " . implode( "\n", $output ) );
-
-if ( $exit !== 0 ) {
-	webhook_log( 'EXPORT ERROR: Export script failed.' );
-	exit( 1 );
-}
-
-// Git commit and push exported files.
-$git_output = [];
-$git_exit   = 0;
-
-$git_commands = implode( ' && ', [
-	'cd ' . escapeshellarg( $theme_path ),
-	'git add elementor-data/',
-	'git diff --cached --quiet || git -c user.name="server-bot" -c user.email="bot@server" commit -m "Export Elementor data from server"',
-	'git push origin main 2>&1',
-] );
-
-exec( $git_commands, $git_output, $git_exit );
-webhook_log( "GIT PUSH (exit {$git_exit}): " . implode( "\n", $git_output ) );
-webhook_log( 'EXPORT: Complete.' );
+echo "Export launched in background. Check webhook.log on server for results.\n";
+webhook_log( 'EXPORT: Background job launched.' );
