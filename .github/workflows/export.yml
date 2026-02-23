@@ -1,0 +1,56 @@
+name: Export Elementor Data
+
+on:
+  workflow_dispatch:
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run export on server
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          port: ${{ secrets.SSH_PORT }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            cd ${{ secrets.THEME_PATH }}
+            git fetch --all
+            git reset --hard origin/main
+            bash scripts/export.sh
+
+      - name: Pull exported files from server
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          port: ${{ secrets.SSH_PORT }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          source: ${{ secrets.THEME_PATH }}/elementor-data/*.json
+          target: ./elementor-data/
+          strip_components: 10
+          rm: false
+
+      - name: Commit and push exported data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Copy files from the nested path to the right location
+          if [ -d "home" ]; then
+            find home -name "*.json" -exec cp {} elementor-data/ \;
+            rm -rf home
+          fi
+
+          git add elementor-data/
+
+          if git diff --cached --quiet; then
+            echo "No Elementor data changes to commit."
+          else
+            git commit -m "Export Elementor data from server"
+            git push
+          fi
