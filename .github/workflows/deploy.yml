@@ -21,6 +21,7 @@ jobs:
             -X POST \
             -H "Content-Type: application/json" \
             -H "X-Hub-Signature-256: $SIGNATURE" \
+            -H "Host: bviral.co.il" \
             -d "$PAYLOAD" \
             "$WEBHOOK_URL")
 
