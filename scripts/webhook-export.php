@@ -35,9 +35,26 @@ if ( ! hash_equals( $expected, $signature ) ) {
 	die( 'Forbidden' );
 }
 
-webhook_log( 'EXPORT: Starting Elementor data export...' );
+webhook_log( 'EXPORT: Request received. Launching background job...' );
 
-// --- Find WP-CLI ---
+// --- Respond immediately, run export in background ---
+http_response_code( 200 );
+echo "Export started in background. Check webhook.log on server for progress.\n";
+
+// Flush output so curl gets the response immediately.
+if ( function_exists( 'fastcgi_finish_request' ) ) {
+	fastcgi_finish_request();
+} else {
+	ob_end_flush();
+	flush();
+	if ( function_exists( 'litespeed_finish_request' ) ) {
+		litespeed_finish_request();
+	}
+}
+
+// --- Now run the export in background ---
+
+// Find WP-CLI.
 $wp_cli = trim( shell_exec( 'which wp 2>/dev/null' ) );
 if ( empty( $wp_cli ) ) {
 	$common_paths = [ '/usr/local/bin/wp', '/usr/bin/wp', '/home/bviral/bin/wp' ];
@@ -50,12 +67,11 @@ if ( empty( $wp_cli ) ) {
 }
 
 if ( empty( $wp_cli ) ) {
-	http_response_code( 500 );
 	webhook_log( 'EXPORT ERROR: WP-CLI not found.' );
-	die( 'WP-CLI not found.' );
+	exit( 1 );
 }
 
-// --- Run export ---
+// Run export.
 $output = [];
 $exit   = 0;
 
@@ -68,11 +84,11 @@ exec(
 webhook_log( "EXPORT (exit {$exit}): " . implode( "\n", $output ) );
 
 if ( $exit !== 0 ) {
-	http_response_code( 500 );
-	die( "Export failed:\n" . implode( "\n", $output ) );
+	webhook_log( 'EXPORT ERROR: Export script failed.' );
+	exit( 1 );
 }
 
-// --- Git commit and push exported files ---
+// Git commit and push exported files.
 $git_output = [];
 $git_exit   = 0;
 
@@ -85,8 +101,4 @@ $git_commands = implode( ' && ', [
 
 exec( $git_commands, $git_output, $git_exit );
 webhook_log( "GIT PUSH (exit {$git_exit}): " . implode( "\n", $git_output ) );
-
-http_response_code( 200 );
-echo "Export complete.\n";
-echo implode( "\n", $output ) . "\n";
-echo implode( "\n", $git_output ) . "\n";
+webhook_log( 'EXPORT: Complete.' );
