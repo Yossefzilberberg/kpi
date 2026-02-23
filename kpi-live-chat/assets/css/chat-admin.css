@@ -1,0 +1,170 @@
+/* KPI Live Chat - Admin Styles */
+
+.kpi-chat-admin-wrap {
+	direction: rtl;
+}
+
+/* ===== Filters ===== */
+.kpi-chat-filters {
+	margin: 16px 0;
+	display: flex;
+	gap: 8px;
+}
+
+/* ===== Table ===== */
+.kpi-chat-table .column-id {
+	width: 60px;
+}
+
+.kpi-chat-table .column-status {
+	width: 80px;
+}
+
+.kpi-chat-table .column-time {
+	width: 160px;
+}
+
+.kpi-chat-table .column-message {
+	max-width: 250px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.kpi-chat-unread-row {
+	background: #fef9e7 !important;
+}
+
+.kpi-chat-admin-badge {
+	display: inline-block;
+	background: #e74c3c;
+	color: #fff;
+	border-radius: 10px;
+	padding: 0 7px;
+	font-size: 12px;
+	font-weight: bold;
+	margin-right: 6px;
+	line-height: 20px;
+}
+
+.kpi-chat-status {
+	display: inline-block;
+	padding: 2px 10px;
+	border-radius: 12px;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+.kpi-chat-status-active {
+	background: #d4edda;
+	color: #155724;
+}
+
+.kpi-chat-status-closed {
+	background: #f0f0f0;
+	color: #666;
+}
+
+/* ===== Single Conversation ===== */
+.kpi-chat-admin-header {
+	margin-bottom: 20px;
+}
+
+.kpi-chat-admin-header h1 {
+	margin: 8px 0;
+}
+
+.kpi-chat-admin-meta {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	color: #666;
+	font-size: 14px;
+}
+
+/* ===== Messages ===== */
+.kpi-chat-admin-messages {
+	max-height: 500px;
+	overflow-y: auto;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	padding: 16px;
+	background: #f9f9f9;
+	margin-bottom: 16px;
+}
+
+.kpi-chat-admin-msg {
+	margin-bottom: 16px;
+	padding: 12px 16px;
+	border-radius: 8px;
+	max-width: 75%;
+}
+
+.kpi-chat-admin-msg-visitor {
+	background: #fff;
+	border: 1px solid #ddd;
+	margin-left: auto;
+}
+
+.kpi-chat-admin-msg-agent {
+	background: #e8f4fd;
+	border: 1px solid #bee5f7;
+	margin-right: auto;
+}
+
+.kpi-chat-admin-msg-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 6px;
+	font-size: 13px;
+}
+
+.kpi-chat-admin-msg-time {
+	color: #999;
+	font-size: 12px;
+}
+
+.kpi-chat-admin-msg-body {
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	font-size: 14px;
+	line-height: 1.6;
+}
+
+/* ===== Reply Area ===== */
+.kpi-chat-admin-reply-area {
+	display: flex;
+	gap: 10px;
+	align-items: flex-end;
+}
+
+.kpi-chat-admin-reply-input {
+	flex: 1;
+	min-height: 60px;
+	padding: 10px 14px;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	font-size: 14px;
+	resize: vertical;
+	direction: rtl;
+	font-family: inherit;
+}
+
+.kpi-chat-admin-reply-input:focus {
+	outline: none;
+	border-color: #0073aa;
+	box-shadow: 0 0 0 1px #0073aa;
+}
+
+.kpi-chat-admin-reply-btn {
+	height: 40px;
+	padding: 0 24px !important;
+	flex-shrink: 0;
+}
+
+/* ===== Settings ===== */
+.kpi-chat-admin-wrap .form-table th {
+	text-align: right;
+	padding-right: 0;
+}

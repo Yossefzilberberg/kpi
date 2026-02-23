@@ -48,9 +48,15 @@ if ( $ref !== 'refs/heads/main' ) {
 webhook_log( 'DEPLOY: Push to main detected. Launching background deploy...' );
 
 // --- Launch deploy as background process ---
+$plugin_source = $theme_path . '/kpi-live-chat';
+$plugin_target = $wp_path . '/wp-content/plugins/kpi-live-chat';
+
 $deploy_script = "cd " . escapeshellarg( $theme_path )
 	. " && git fetch --all"
 	. " && git reset --hard origin/main"
+	. " && cp scripts/webhook.php " . escapeshellarg( $wp_path . '/webhook.php' )
+	. " && cp scripts/webhook-export.php " . escapeshellarg( $wp_path . '/webhook-export.php' )
+	. " && ln -sfn " . escapeshellarg( $plugin_source ) . " " . escapeshellarg( $plugin_target )
 	. " && bash scripts/import.sh";
 exec( "nohup bash -c " . escapeshellarg( $deploy_script ) . " >> " . escapeshellarg( $log_file ) . " 2>&1 &" );
 
