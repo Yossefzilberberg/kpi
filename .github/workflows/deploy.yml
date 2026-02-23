@@ -9,7 +9,21 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy via SSH
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Check for Elementor data changes
+        id: changes
+        run: |
+          if git diff --name-only HEAD~1 HEAD | grep -q '^elementor-data/.*\.json$'; then
+            echo "elementor_changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "elementor_changed=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Deploy theme via SSH
         uses: appleboy/ssh-action@v1
         with:
           host: ${{ secrets.SSH_HOST }}
@@ -20,3 +34,15 @@ jobs:
             cd ${{ secrets.THEME_PATH }}
             git fetch --all
             git reset --hard origin/main
+
+      - name: Import Elementor data
+        if: steps.changes.outputs.elementor_changed == 'true'
+        uses: appleboy/ssh-action@v1
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          port: ${{ secrets.SSH_PORT }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            cd ${{ secrets.THEME_PATH }}
+            bash scripts/import.sh
